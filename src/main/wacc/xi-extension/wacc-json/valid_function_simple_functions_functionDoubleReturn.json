@@ -1,0 +1,131 @@
+{
+  "type" : "Program",
+  "functions" : [
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 10,
+          "column" : 5
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "f",
+        "pos" : {
+          "line" : 10,
+          "column" : 9
+        }
+      },
+      "params" : [
+      ],
+      "body" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "Return",
+          "expr" : {
+            "type" : "IntLit",
+            "value" : 3,
+            "pos" : {
+              "line" : 11,
+              "column" : 16
+            }
+          },
+          "pos" : {
+            "line" : 11,
+            "column" : 9
+          }
+        },
+        "second" : {
+          "type" : "Return",
+          "expr" : {
+            "type" : "IntLit",
+            "value" : 5,
+            "pos" : {
+              "line" : 12,
+              "column" : 16
+            }
+          },
+          "pos" : {
+            "line" : 12,
+            "column" : 9
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 17
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 5
+      }
+    }
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 14,
+          "column" : 5
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "ret",
+        "pos" : {
+          "line" : 14,
+          "column" : 9
+        }
+      },
+      "rhs" : {
+        "type" : "Call",
+        "function" : {
+          "type" : "Ident",
+          "name" : "f",
+          "pos" : {
+            "line" : 14,
+            "column" : 20
+          }
+        },
+        "args" : [
+        ],
+        "pos" : {
+          "line" : 14,
+          "column" : 15
+        }
+      },
+      "pos" : {
+        "line" : 14,
+        "column" : 5
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "ret",
+        "pos" : {
+          "line" : 15,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 15,
+        "column" : 5
+      }
+    },
+    "pos" : {
+      "line" : 14,
+      "column" : 23
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

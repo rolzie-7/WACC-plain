@@ -1,0 +1,143 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "CharType",
+          "pos" : {
+            "line" : 10,
+            "column" : 3
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "c1",
+          "pos" : {
+            "line" : 10,
+            "column" : 8
+          }
+        },
+        "rhs" : {
+          "type" : "CharLit",
+          "value" : "f",
+          "pos" : {
+            "line" : 10,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 10,
+          "column" : 3
+        }
+      },
+      "second" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "CharType",
+          "pos" : {
+            "line" : 11,
+            "column" : 3
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "c2",
+          "pos" : {
+            "line" : 11,
+            "column" : 8
+          }
+        },
+        "rhs" : {
+          "type" : "CharLit",
+          "value" : "F",
+          "pos" : {
+            "line" : 11,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 16
+      }
+    },
+    "second" : {
+      "type" : "IfThenElse",
+      "condition" : {
+        "type" : "E",
+        "left" : {
+          "type" : "Ident",
+          "name" : "c1",
+          "pos" : {
+            "line" : 12,
+            "column" : 6
+          }
+        },
+        "right" : {
+          "type" : "Ident",
+          "name" : "c2",
+          "pos" : {
+            "line" : 12,
+            "column" : 12
+          }
+        },
+        "pos" : {
+          "line" : 12,
+          "column" : 9
+        }
+      },
+      "thenStmt" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "StrLit",
+          "value" : "incorrect",
+          "pos" : {
+            "line" : 14,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 14,
+          "column" : 5
+        }
+      },
+      "elseStmt" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "StrLit",
+          "value" : "correct",
+          "pos" : {
+            "line" : 16,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 16,
+          "column" : 5
+        }
+      },
+      "pos" : {
+        "line" : 12,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 11,
+      "column" : 16
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

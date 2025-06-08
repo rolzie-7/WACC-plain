@@ -1,0 +1,47 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "Declare",
+    "varType" : {
+      "type" : "ArrayType",
+      "baseType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 8,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 8,
+        "column" : 6
+      }
+    },
+    "identifier" : {
+      "type" : "Ident",
+      "name" : "x",
+      "pos" : {
+        "line" : 8,
+        "column" : 9
+      }
+    },
+    "rhs" : {
+      "type" : "ArrayLit",
+      "elements" : [
+      ],
+      "pos" : {
+        "line" : 8,
+        "column" : 13
+      }
+    },
+    "pos" : {
+      "line" : 8,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 7,
+    "column" : 1
+  }
+}

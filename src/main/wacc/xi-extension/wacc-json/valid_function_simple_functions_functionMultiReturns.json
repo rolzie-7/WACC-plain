@@ -1,0 +1,168 @@
+{
+  "type" : "Program",
+  "functions" : [
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 10,
+          "column" : 3
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "returnInWhile",
+        "pos" : {
+          "line" : 10,
+          "column" : 7
+        }
+      },
+      "params" : [
+      ],
+      "body" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "WhileDo",
+          "condition" : {
+            "type" : "BoolLit",
+            "value" : true,
+            "pos" : {
+              "line" : 11,
+              "column" : 11
+            }
+          },
+          "body" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "Return",
+              "expr" : {
+                "type" : "IntLit",
+                "value" : 1,
+                "pos" : {
+                  "line" : 12,
+                  "column" : 14
+                }
+              },
+              "pos" : {
+                "line" : 12,
+                "column" : 7
+              }
+            },
+            "second" : {
+              "type" : "Println",
+              "expr" : {
+                "type" : "StrLit",
+                "value" : "How on Earth did we get here?",
+                "pos" : {
+                  "line" : 13,
+                  "column" : 15
+                }
+              },
+              "pos" : {
+                "line" : 13,
+                "column" : 7
+              }
+            },
+            "pos" : {
+              "line" : 12,
+              "column" : 16
+            }
+          },
+          "pos" : {
+            "line" : 11,
+            "column" : 5
+          }
+        },
+        "second" : {
+          "type" : "Return",
+          "expr" : {
+            "type" : "IntLit",
+            "value" : 2,
+            "pos" : {
+              "line" : 15,
+              "column" : 12
+            }
+          },
+          "pos" : {
+            "line" : 15,
+            "column" : 5
+          }
+        },
+        "pos" : {
+          "line" : 14,
+          "column" : 10
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 3
+      }
+    }
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 18,
+          "column" : 3
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "x",
+        "pos" : {
+          "line" : 18,
+          "column" : 7
+        }
+      },
+      "rhs" : {
+        "type" : "Call",
+        "function" : {
+          "type" : "Ident",
+          "name" : "returnInWhile",
+          "pos" : {
+            "line" : 18,
+            "column" : 16
+          }
+        },
+        "args" : [
+        ],
+        "pos" : {
+          "line" : 18,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 18,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "x",
+        "pos" : {
+          "line" : 19,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 19,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 18,
+      "column" : 32
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

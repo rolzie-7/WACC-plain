@@ -1,0 +1,23 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "Println",
+    "expr" : {
+      "type" : "PairLit",
+      "pos" : {
+        "line" : 10,
+        "column" : 11
+      }
+    },
+    "pos" : {
+      "line" : 10,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

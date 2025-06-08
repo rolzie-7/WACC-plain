@@ -1,0 +1,127 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "IntType",
+          "pos" : {
+            "line" : 11,
+            "column" : 3
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "x",
+          "pos" : {
+            "line" : 11,
+            "column" : 7
+          }
+        },
+        "rhs" : {
+          "type" : "IntLit",
+          "value" : 12,
+          "pos" : {
+            "line" : 11,
+            "column" : 11
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 3
+        }
+      },
+      "second" : {
+        "type" : "BeginEnd",
+        "stmt" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "BoolType",
+              "pos" : {
+                "line" : 13,
+                "column" : 5
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "x",
+              "pos" : {
+                "line" : 13,
+                "column" : 10
+              }
+            },
+            "rhs" : {
+              "type" : "BoolLit",
+              "value" : true,
+              "pos" : {
+                "line" : 13,
+                "column" : 14
+              }
+            },
+            "pos" : {
+              "line" : 13,
+              "column" : 5
+            }
+          },
+          "second" : {
+            "type" : "Println",
+            "expr" : {
+              "type" : "Ident",
+              "name" : "x",
+              "pos" : {
+                "line" : 14,
+                "column" : 13
+              }
+            },
+            "pos" : {
+              "line" : 14,
+              "column" : 5
+            }
+          },
+          "pos" : {
+            "line" : 13,
+            "column" : 19
+          }
+        },
+        "pos" : {
+          "line" : 12,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 11,
+        "column" : 14
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "x",
+        "pos" : {
+          "line" : 16,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 16,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 15,
+      "column" : 7
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}

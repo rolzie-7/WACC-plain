@@ -1,0 +1,687 @@
+{
+  "type" : "Program",
+  "functions" : [
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "CharType",
+        "pos" : {
+          "line" : 16,
+          "column" : 3
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "doSomething",
+        "pos" : {
+          "line" : 16,
+          "column" : 8
+        }
+      },
+      "params" : [
+        {
+          "type" : "Param",
+          "paramType" : {
+            "type" : "IntType",
+            "pos" : {
+              "line" : 16,
+              "column" : 20
+            }
+          },
+          "name" : {
+            "type" : "Ident",
+            "name" : "a",
+            "pos" : {
+              "line" : 16,
+              "column" : 24
+            }
+          }
+        },
+        {
+          "type" : "Param",
+          "paramType" : {
+            "type" : "BoolType",
+            "pos" : {
+              "line" : 16,
+              "column" : 27
+            }
+          },
+          "name" : {
+            "type" : "Ident",
+            "name" : "b",
+            "pos" : {
+              "line" : 16,
+              "column" : 32
+            }
+          }
+        },
+        {
+          "type" : "Param",
+          "paramType" : {
+            "type" : "CharType",
+            "pos" : {
+              "line" : 16,
+              "column" : 35
+            }
+          },
+          "name" : {
+            "type" : "Ident",
+            "name" : "c",
+            "pos" : {
+              "line" : 16,
+              "column" : 40
+            }
+          }
+        },
+        {
+          "type" : "Param",
+          "paramType" : {
+            "type" : "StringType",
+            "pos" : {
+              "line" : 16,
+              "column" : 43
+            }
+          },
+          "name" : {
+            "type" : "Ident",
+            "name" : "d",
+            "pos" : {
+              "line" : 16,
+              "column" : 50
+            }
+          }
+        },
+        {
+          "type" : "Param",
+          "paramType" : {
+            "type" : "ArrayType",
+            "baseType" : {
+              "type" : "BoolType",
+              "pos" : {
+                "line" : 16,
+                "column" : 53
+              }
+            },
+            "pos" : {
+              "line" : 16,
+              "column" : 57
+            }
+          },
+          "name" : {
+            "type" : "Ident",
+            "name" : "e",
+            "pos" : {
+              "line" : 16,
+              "column" : 60
+            }
+          }
+        },
+        {
+          "type" : "Param",
+          "paramType" : {
+            "type" : "ArrayType",
+            "baseType" : {
+              "type" : "IntType",
+              "pos" : {
+                "line" : 16,
+                "column" : 63
+              }
+            },
+            "pos" : {
+              "line" : 16,
+              "column" : 66
+            }
+          },
+          "name" : {
+            "type" : "Ident",
+            "name" : "f",
+            "pos" : {
+              "line" : 16,
+              "column" : 69
+            }
+          }
+        }
+      ],
+      "body" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "StmtList",
+              "first" : {
+                "type" : "StmtList",
+                "first" : {
+                  "type" : "StmtList",
+                  "first" : {
+                    "type" : "StmtList",
+                    "first" : {
+                      "type" : "StmtList",
+                      "first" : {
+                        "type" : "StmtList",
+                        "first" : {
+                          "type" : "StmtList",
+                          "first" : {
+                            "type" : "StmtList",
+                            "first" : {
+                              "type" : "StmtList",
+                              "first" : {
+                                "type" : "Print",
+                                "expr" : {
+                                  "type" : "StrLit",
+                                  "value" : "a is ",
+                                  "pos" : {
+                                    "line" : 17,
+                                    "column" : 11
+                                  }
+                                },
+                                "pos" : {
+                                  "line" : 17,
+                                  "column" : 5
+                                }
+                              },
+                              "second" : {
+                                "type" : "Println",
+                                "expr" : {
+                                  "type" : "Ident",
+                                  "name" : "a",
+                                  "pos" : {
+                                    "line" : 18,
+                                    "column" : 13
+                                  }
+                                },
+                                "pos" : {
+                                  "line" : 18,
+                                  "column" : 5
+                                }
+                              },
+                              "pos" : {
+                                "line" : 17,
+                                "column" : 19
+                              }
+                            },
+                            "second" : {
+                              "type" : "Print",
+                              "expr" : {
+                                "type" : "StrLit",
+                                "value" : "b is ",
+                                "pos" : {
+                                  "line" : 19,
+                                  "column" : 11
+                                }
+                              },
+                              "pos" : {
+                                "line" : 19,
+                                "column" : 5
+                              }
+                            },
+                            "pos" : {
+                              "line" : 18,
+                              "column" : 15
+                            }
+                          },
+                          "second" : {
+                            "type" : "Println",
+                            "expr" : {
+                              "type" : "Ident",
+                              "name" : "b",
+                              "pos" : {
+                                "line" : 20,
+                                "column" : 13
+                              }
+                            },
+                            "pos" : {
+                              "line" : 20,
+                              "column" : 5
+                            }
+                          },
+                          "pos" : {
+                            "line" : 19,
+                            "column" : 19
+                          }
+                        },
+                        "second" : {
+                          "type" : "Print",
+                          "expr" : {
+                            "type" : "StrLit",
+                            "value" : "c is ",
+                            "pos" : {
+                              "line" : 21,
+                              "column" : 11
+                            }
+                          },
+                          "pos" : {
+                            "line" : 21,
+                            "column" : 5
+                          }
+                        },
+                        "pos" : {
+                          "line" : 20,
+                          "column" : 15
+                        }
+                      },
+                      "second" : {
+                        "type" : "Println",
+                        "expr" : {
+                          "type" : "Ident",
+                          "name" : "c",
+                          "pos" : {
+                            "line" : 22,
+                            "column" : 13
+                          }
+                        },
+                        "pos" : {
+                          "line" : 22,
+                          "column" : 5
+                        }
+                      },
+                      "pos" : {
+                        "line" : 21,
+                        "column" : 19
+                      }
+                    },
+                    "second" : {
+                      "type" : "Print",
+                      "expr" : {
+                        "type" : "StrLit",
+                        "value" : "d is ",
+                        "pos" : {
+                          "line" : 23,
+                          "column" : 11
+                        }
+                      },
+                      "pos" : {
+                        "line" : 23,
+                        "column" : 5
+                      }
+                    },
+                    "pos" : {
+                      "line" : 22,
+                      "column" : 15
+                    }
+                  },
+                  "second" : {
+                    "type" : "Println",
+                    "expr" : {
+                      "type" : "Ident",
+                      "name" : "d",
+                      "pos" : {
+                        "line" : 24,
+                        "column" : 13
+                      }
+                    },
+                    "pos" : {
+                      "line" : 24,
+                      "column" : 5
+                    }
+                  },
+                  "pos" : {
+                    "line" : 23,
+                    "column" : 19
+                  }
+                },
+                "second" : {
+                  "type" : "Print",
+                  "expr" : {
+                    "type" : "StrLit",
+                    "value" : "e is ",
+                    "pos" : {
+                      "line" : 25,
+                      "column" : 11
+                    }
+                  },
+                  "pos" : {
+                    "line" : 25,
+                    "column" : 5
+                  }
+                },
+                "pos" : {
+                  "line" : 24,
+                  "column" : 15
+                }
+              },
+              "second" : {
+                "type" : "Println",
+                "expr" : {
+                  "type" : "Ident",
+                  "name" : "e",
+                  "pos" : {
+                    "line" : 26,
+                    "column" : 13
+                  }
+                },
+                "pos" : {
+                  "line" : 26,
+                  "column" : 5
+                }
+              },
+              "pos" : {
+                "line" : 25,
+                "column" : 19
+              }
+            },
+            "second" : {
+              "type" : "Print",
+              "expr" : {
+                "type" : "StrLit",
+                "value" : "f is ",
+                "pos" : {
+                  "line" : 27,
+                  "column" : 11
+                }
+              },
+              "pos" : {
+                "line" : 27,
+                "column" : 5
+              }
+            },
+            "pos" : {
+              "line" : 26,
+              "column" : 15
+            }
+          },
+          "second" : {
+            "type" : "Println",
+            "expr" : {
+              "type" : "Ident",
+              "name" : "f",
+              "pos" : {
+                "line" : 28,
+                "column" : 13
+              }
+            },
+            "pos" : {
+              "line" : 28,
+              "column" : 5
+            }
+          },
+          "pos" : {
+            "line" : 27,
+            "column" : 19
+          }
+        },
+        "second" : {
+          "type" : "Return",
+          "expr" : {
+            "type" : "CharLit",
+            "value" : "g",
+            "pos" : {
+              "line" : 29,
+              "column" : 12
+            }
+          },
+          "pos" : {
+            "line" : 29,
+            "column" : 5
+          }
+        },
+        "pos" : {
+          "line" : 28,
+          "column" : 15
+        }
+      },
+      "pos" : {
+        "line" : 16,
+        "column" : 3
+      }
+    }
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "ArrayType",
+              "baseType" : {
+                "type" : "BoolType",
+                "pos" : {
+                  "line" : 31,
+                  "column" : 3
+                }
+              },
+              "pos" : {
+                "line" : 31,
+                "column" : 7
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "bools",
+              "pos" : {
+                "line" : 31,
+                "column" : 10
+              }
+            },
+            "rhs" : {
+              "type" : "ArrayLit",
+              "elements" : [
+                {
+                  "type" : "BoolLit",
+                  "value" : false,
+                  "pos" : {
+                    "line" : 31,
+                    "column" : 20
+                  }
+                },
+                {
+                  "type" : "BoolLit",
+                  "value" : true,
+                  "pos" : {
+                    "line" : 31,
+                    "column" : 27
+                  }
+                }
+              ],
+              "pos" : {
+                "line" : 31,
+                "column" : 18
+              }
+            },
+            "pos" : {
+              "line" : 31,
+              "column" : 3
+            }
+          },
+          "second" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "ArrayType",
+              "baseType" : {
+                "type" : "IntType",
+                "pos" : {
+                  "line" : 32,
+                  "column" : 3
+                }
+              },
+              "pos" : {
+                "line" : 32,
+                "column" : 6
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "ints",
+              "pos" : {
+                "line" : 32,
+                "column" : 9
+              }
+            },
+            "rhs" : {
+              "type" : "ArrayLit",
+              "elements" : [
+                {
+                  "type" : "IntLit",
+                  "value" : 1,
+                  "pos" : {
+                    "line" : 32,
+                    "column" : 18
+                  }
+                },
+                {
+                  "type" : "IntLit",
+                  "value" : 2,
+                  "pos" : {
+                    "line" : 32,
+                    "column" : 21
+                  }
+                }
+              ],
+              "pos" : {
+                "line" : 32,
+                "column" : 16
+              }
+            },
+            "pos" : {
+              "line" : 32,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 31,
+            "column" : 34
+          }
+        },
+        "second" : {
+          "type" : "Declare",
+          "varType" : {
+            "type" : "CharType",
+            "pos" : {
+              "line" : 33,
+              "column" : 3
+            }
+          },
+          "identifier" : {
+            "type" : "Ident",
+            "name" : "answer",
+            "pos" : {
+              "line" : 33,
+              "column" : 8
+            }
+          },
+          "rhs" : {
+            "type" : "Call",
+            "function" : {
+              "type" : "Ident",
+              "name" : "doSomething",
+              "pos" : {
+                "line" : 33,
+                "column" : 22
+              }
+            },
+            "args" : [
+              {
+                "type" : "IntLit",
+                "value" : 42,
+                "pos" : {
+                  "line" : 33,
+                  "column" : 34
+                }
+              },
+              {
+                "type" : "BoolLit",
+                "value" : true,
+                "pos" : {
+                  "line" : 33,
+                  "column" : 38
+                }
+              },
+              {
+                "type" : "CharLit",
+                "value" : "u",
+                "pos" : {
+                  "line" : 33,
+                  "column" : 44
+                }
+              },
+              {
+                "type" : "StrLit",
+                "value" : "hello",
+                "pos" : {
+                  "line" : 33,
+                  "column" : 49
+                }
+              },
+              {
+                "type" : "Ident",
+                "name" : "bools",
+                "pos" : {
+                  "line" : 33,
+                  "column" : 58
+                }
+              },
+              {
+                "type" : "Ident",
+                "name" : "ints",
+                "pos" : {
+                  "line" : 33,
+                  "column" : 65
+                }
+              }
+            ],
+            "pos" : {
+              "line" : 33,
+              "column" : 17
+            }
+          },
+          "pos" : {
+            "line" : 33,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 32,
+          "column" : 25
+        }
+      },
+      "second" : {
+        "type" : "Print",
+        "expr" : {
+          "type" : "StrLit",
+          "value" : "answer is ",
+          "pos" : {
+            "line" : 34,
+            "column" : 9
+          }
+        },
+        "pos" : {
+          "line" : 34,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 33,
+        "column" : 71
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "answer",
+        "pos" : {
+          "line" : 35,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 35,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 34,
+      "column" : 22
+    }
+  },
+  "pos" : {
+    "line" : 15,
+    "column" : 1
+  }
+}

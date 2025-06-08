@@ -1,0 +1,438 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "StmtList",
+              "first" : {
+                "type" : "StmtList",
+                "first" : {
+                  "type" : "StmtList",
+                  "first" : {
+                    "type" : "StmtList",
+                    "first" : {
+                      "type" : "StmtList",
+                      "first" : {
+                        "type" : "StmtList",
+                        "first" : {
+                          "type" : "StmtList",
+                          "first" : {
+                            "type" : "StmtList",
+                            "first" : {
+                              "type" : "Declare",
+                              "varType" : {
+                                "type" : "StringType",
+                                "pos" : {
+                                  "line" : 16,
+                                  "column" : 3
+                                }
+                              },
+                              "identifier" : {
+                                "type" : "Ident",
+                                "name" : "s1",
+                                "pos" : {
+                                  "line" : 16,
+                                  "column" : 10
+                                }
+                              },
+                              "rhs" : {
+                                "type" : "StrLit",
+                                "value" : "Hi",
+                                "pos" : {
+                                  "line" : 16,
+                                  "column" : 15
+                                }
+                              },
+                              "pos" : {
+                                "line" : 16,
+                                "column" : 3
+                              }
+                            },
+                            "second" : {
+                              "type" : "Declare",
+                              "varType" : {
+                                "type" : "StringType",
+                                "pos" : {
+                                  "line" : 17,
+                                  "column" : 3
+                                }
+                              },
+                              "identifier" : {
+                                "type" : "Ident",
+                                "name" : "s2",
+                                "pos" : {
+                                  "line" : 17,
+                                  "column" : 10
+                                }
+                              },
+                              "rhs" : {
+                                "type" : "StrLit",
+                                "value" : "Hello",
+                                "pos" : {
+                                  "line" : 17,
+                                  "column" : 15
+                                }
+                              },
+                              "pos" : {
+                                "line" : 17,
+                                "column" : 3
+                              }
+                            },
+                            "pos" : {
+                              "line" : 16,
+                              "column" : 20
+                            }
+                          },
+                          "second" : {
+                            "type" : "Print",
+                            "expr" : {
+                              "type" : "StrLit",
+                              "value" : "s1 is ",
+                              "pos" : {
+                                "line" : 18,
+                                "column" : 9
+                              }
+                            },
+                            "pos" : {
+                              "line" : 18,
+                              "column" : 3
+                            }
+                          },
+                          "pos" : {
+                            "line" : 17,
+                            "column" : 23
+                          }
+                        },
+                        "second" : {
+                          "type" : "Println",
+                          "expr" : {
+                            "type" : "Ident",
+                            "name" : "s1",
+                            "pos" : {
+                              "line" : 19,
+                              "column" : 11
+                            }
+                          },
+                          "pos" : {
+                            "line" : 19,
+                            "column" : 3
+                          }
+                        },
+                        "pos" : {
+                          "line" : 18,
+                          "column" : 18
+                        }
+                      },
+                      "second" : {
+                        "type" : "Print",
+                        "expr" : {
+                          "type" : "StrLit",
+                          "value" : "s2 is ",
+                          "pos" : {
+                            "line" : 20,
+                            "column" : 9
+                          }
+                        },
+                        "pos" : {
+                          "line" : 20,
+                          "column" : 3
+                        }
+                      },
+                      "pos" : {
+                        "line" : 19,
+                        "column" : 14
+                      }
+                    },
+                    "second" : {
+                      "type" : "Println",
+                      "expr" : {
+                        "type" : "Ident",
+                        "name" : "s2",
+                        "pos" : {
+                          "line" : 21,
+                          "column" : 11
+                        }
+                      },
+                      "pos" : {
+                        "line" : 21,
+                        "column" : 3
+                      }
+                    },
+                    "pos" : {
+                      "line" : 20,
+                      "column" : 18
+                    }
+                  },
+                  "second" : {
+                    "type" : "IfThenElse",
+                    "condition" : {
+                      "type" : "E",
+                      "left" : {
+                        "type" : "Ident",
+                        "name" : "s1",
+                        "pos" : {
+                          "line" : 22,
+                          "column" : 6
+                        }
+                      },
+                      "right" : {
+                        "type" : "Ident",
+                        "name" : "s2",
+                        "pos" : {
+                          "line" : 22,
+                          "column" : 12
+                        }
+                      },
+                      "pos" : {
+                        "line" : 22,
+                        "column" : 9
+                      }
+                    },
+                    "thenStmt" : {
+                      "type" : "Println",
+                      "expr" : {
+                        "type" : "StrLit",
+                        "value" : "They are the same string.",
+                        "pos" : {
+                          "line" : 23,
+                          "column" : 13
+                        }
+                      },
+                      "pos" : {
+                        "line" : 23,
+                        "column" : 5
+                      }
+                    },
+                    "elseStmt" : {
+                      "type" : "Println",
+                      "expr" : {
+                        "type" : "StrLit",
+                        "value" : "They are not the same string.",
+                        "pos" : {
+                          "line" : 25,
+                          "column" : 13
+                        }
+                      },
+                      "pos" : {
+                        "line" : 25,
+                        "column" : 5
+                      }
+                    },
+                    "pos" : {
+                      "line" : 22,
+                      "column" : 3
+                    }
+                  },
+                  "pos" : {
+                    "line" : 21,
+                    "column" : 14
+                  }
+                },
+                "second" : {
+                  "type" : "Println",
+                  "expr" : {
+                    "type" : "StrLit",
+                    "value" : "Now make s1 = s2",
+                    "pos" : {
+                      "line" : 28,
+                      "column" : 11
+                    }
+                  },
+                  "pos" : {
+                    "line" : 28,
+                    "column" : 3
+                  }
+                },
+                "pos" : {
+                  "line" : 26,
+                  "column" : 6
+                }
+              },
+              "second" : {
+                "type" : "Assign",
+                "lhs" : {
+                  "type" : "Ident",
+                  "name" : "s1",
+                  "pos" : {
+                    "line" : 29,
+                    "column" : 3
+                  }
+                },
+                "rhs" : {
+                  "type" : "Ident",
+                  "name" : "s2",
+                  "pos" : {
+                    "line" : 29,
+                    "column" : 8
+                  }
+                },
+                "pos" : {
+                  "line" : 29,
+                  "column" : 3
+                }
+              },
+              "pos" : {
+                "line" : 28,
+                "column" : 30
+              }
+            },
+            "second" : {
+              "type" : "Print",
+              "expr" : {
+                "type" : "StrLit",
+                "value" : "s1 is ",
+                "pos" : {
+                  "line" : 31,
+                  "column" : 9
+                }
+              },
+              "pos" : {
+                "line" : 31,
+                "column" : 3
+              }
+            },
+            "pos" : {
+              "line" : 29,
+              "column" : 11
+            }
+          },
+          "second" : {
+            "type" : "Println",
+            "expr" : {
+              "type" : "Ident",
+              "name" : "s1",
+              "pos" : {
+                "line" : 32,
+                "column" : 11
+              }
+            },
+            "pos" : {
+              "line" : 32,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 31,
+            "column" : 18
+          }
+        },
+        "second" : {
+          "type" : "Print",
+          "expr" : {
+            "type" : "StrLit",
+            "value" : "s2 is ",
+            "pos" : {
+              "line" : 33,
+              "column" : 9
+            }
+          },
+          "pos" : {
+            "line" : 33,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 32,
+          "column" : 14
+        }
+      },
+      "second" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "Ident",
+          "name" : "s2",
+          "pos" : {
+            "line" : 34,
+            "column" : 11
+          }
+        },
+        "pos" : {
+          "line" : 34,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 33,
+        "column" : 18
+      }
+    },
+    "second" : {
+      "type" : "IfThenElse",
+      "condition" : {
+        "type" : "E",
+        "left" : {
+          "type" : "Ident",
+          "name" : "s1",
+          "pos" : {
+            "line" : 35,
+            "column" : 6
+          }
+        },
+        "right" : {
+          "type" : "Ident",
+          "name" : "s2",
+          "pos" : {
+            "line" : 35,
+            "column" : 12
+          }
+        },
+        "pos" : {
+          "line" : 35,
+          "column" : 9
+        }
+      },
+      "thenStmt" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "StrLit",
+          "value" : "They are the same string.",
+          "pos" : {
+            "line" : 36,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 36,
+          "column" : 5
+        }
+      },
+      "elseStmt" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "StrLit",
+          "value" : "They are not the same string.",
+          "pos" : {
+            "line" : 38,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 38,
+          "column" : 5
+        }
+      },
+      "pos" : {
+        "line" : 35,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 34,
+      "column" : 14
+    }
+  },
+  "pos" : {
+    "line" : 15,
+    "column" : 1
+  }
+}

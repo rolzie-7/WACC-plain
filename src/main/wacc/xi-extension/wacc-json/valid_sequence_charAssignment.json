@@ -1,0 +1,69 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "CharType",
+        "pos" : {
+          "line" : 8,
+          "column" : 3
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "c",
+        "pos" : {
+          "line" : 8,
+          "column" : 8
+        }
+      },
+      "rhs" : {
+        "type" : "CharLit",
+        "value" : "a",
+        "pos" : {
+          "line" : 8,
+          "column" : 12
+        }
+      },
+      "pos" : {
+        "line" : 8,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "Assign",
+      "lhs" : {
+        "type" : "Ident",
+        "name" : "c",
+        "pos" : {
+          "line" : 9,
+          "column" : 3
+        }
+      },
+      "rhs" : {
+        "type" : "CharLit",
+        "value" : "Z",
+        "pos" : {
+          "line" : 9,
+          "column" : 7
+        }
+      },
+      "pos" : {
+        "line" : 9,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 8,
+      "column" : 16
+    }
+  },
+  "pos" : {
+    "line" : 7,
+    "column" : 1
+  }
+}

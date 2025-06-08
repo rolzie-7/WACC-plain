@@ -1,0 +1,31 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "WhileDo",
+    "condition" : {
+      "type" : "BoolLit",
+      "value" : false,
+      "pos" : {
+        "line" : 8,
+        "column" : 9
+      }
+    },
+    "body" : {
+      "type" : "Skip",
+      "pos" : {
+        "line" : 9,
+        "column" : 5
+      }
+    },
+    "pos" : {
+      "line" : 8,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 7,
+    "column" : 1
+  }
+}

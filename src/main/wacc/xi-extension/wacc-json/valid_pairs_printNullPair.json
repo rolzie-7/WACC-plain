@@ -1,0 +1,74 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "PairType",
+        "firstType" : {
+          "type" : "PairElemType1",
+          "pos" : {
+            "line" : 10,
+            "column" : 8
+          }
+        },
+        "secondType" : {
+          "type" : "PairElemType1",
+          "pos" : {
+            "line" : 10,
+            "column" : 14
+          }
+        },
+        "pos" : {
+          "line" : 10,
+          "column" : 3
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "p",
+        "pos" : {
+          "line" : 10,
+          "column" : 20
+        }
+      },
+      "rhs" : {
+        "type" : "PairLit",
+        "pos" : {
+          "line" : 10,
+          "column" : 24
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "p",
+        "pos" : {
+          "line" : 11,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 11,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 10,
+      "column" : 29
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

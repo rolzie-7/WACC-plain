@@ -1,0 +1,24 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "Print",
+    "expr" : {
+      "type" : "StrLit",
+      "value" : "Hello World!",
+      "pos" : {
+        "line" : 9,
+        "column" : 9
+      }
+    },
+    "pos" : {
+      "line" : 9,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 8,
+    "column" : 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "Declare",
+    "varType" : {
+      "type" : "StringType",
+      "pos" : {
+        "line" : 8,
+        "column" : 3
+      }
+    },
+    "identifier" : {
+      "type" : "Ident",
+      "name" : "s",
+      "pos" : {
+        "line" : 8,
+        "column" : 10
+      }
+    },
+    "rhs" : {
+      "type" : "StrLit",
+      "value" : "Hello World!",
+      "pos" : {
+        "line" : 8,
+        "column" : 14
+      }
+    },
+    "pos" : {
+      "line" : 8,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 7,
+    "column" : 1
+  }
+}

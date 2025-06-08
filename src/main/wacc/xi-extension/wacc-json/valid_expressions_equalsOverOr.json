@@ -1,0 +1,217 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "BoolType",
+              "pos" : {
+                "line" : 11,
+                "column" : 3
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "p",
+              "pos" : {
+                "line" : 11,
+                "column" : 8
+              }
+            },
+            "rhs" : {
+              "type" : "BoolLit",
+              "value" : false,
+              "pos" : {
+                "line" : 11,
+                "column" : 12
+              }
+            },
+            "pos" : {
+              "line" : 11,
+              "column" : 3
+            }
+          },
+          "second" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "BoolType",
+              "pos" : {
+                "line" : 12,
+                "column" : 3
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "q",
+              "pos" : {
+                "line" : 12,
+                "column" : 8
+              }
+            },
+            "rhs" : {
+              "type" : "BoolLit",
+              "value" : true,
+              "pos" : {
+                "line" : 12,
+                "column" : 12
+              }
+            },
+            "pos" : {
+              "line" : 12,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 11,
+            "column" : 18
+          }
+        },
+        "second" : {
+          "type" : "Declare",
+          "varType" : {
+            "type" : "BoolType",
+            "pos" : {
+              "line" : 13,
+              "column" : 3
+            }
+          },
+          "identifier" : {
+            "type" : "Ident",
+            "name" : "r",
+            "pos" : {
+              "line" : 13,
+              "column" : 8
+            }
+          },
+          "rhs" : {
+            "type" : "BoolLit",
+            "value" : true,
+            "pos" : {
+              "line" : 13,
+              "column" : 12
+            }
+          },
+          "pos" : {
+            "line" : 13,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 12,
+          "column" : 17
+        }
+      },
+      "second" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "Or",
+          "left" : {
+            "type" : "E",
+            "left" : {
+              "type" : "Ident",
+              "name" : "p",
+              "pos" : {
+                "line" : 14,
+                "column" : 11
+              }
+            },
+            "right" : {
+              "type" : "Ident",
+              "name" : "q",
+              "pos" : {
+                "line" : 14,
+                "column" : 16
+              }
+            },
+            "pos" : {
+              "line" : 14,
+              "column" : 13
+            }
+          },
+          "right" : {
+            "type" : "Ident",
+            "name" : "r",
+            "pos" : {
+              "line" : 14,
+              "column" : 21
+            }
+          },
+          "pos" : {
+            "line" : 14,
+            "column" : 18
+          }
+        },
+        "pos" : {
+          "line" : 14,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 13,
+        "column" : 17
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "E",
+        "left" : {
+          "type" : "Ident",
+          "name" : "p",
+          "pos" : {
+            "line" : 15,
+            "column" : 11
+          }
+        },
+        "right" : {
+          "type" : "Or",
+          "left" : {
+            "type" : "Ident",
+            "name" : "q",
+            "pos" : {
+              "line" : 15,
+              "column" : 17
+            }
+          },
+          "right" : {
+            "type" : "Ident",
+            "name" : "r",
+            "pos" : {
+              "line" : 15,
+              "column" : 22
+            }
+          },
+          "pos" : {
+            "line" : 15,
+            "column" : 19
+          }
+        },
+        "pos" : {
+          "line" : 15,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 15,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 14,
+      "column" : 23
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}

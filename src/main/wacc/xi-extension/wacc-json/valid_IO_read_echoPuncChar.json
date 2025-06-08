@@ -1,0 +1,105 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "Declare",
+          "varType" : {
+            "type" : "CharType",
+            "pos" : {
+              "line" : 13,
+              "column" : 3
+            }
+          },
+          "identifier" : {
+            "type" : "Ident",
+            "name" : "c",
+            "pos" : {
+              "line" : 13,
+              "column" : 8
+            }
+          },
+          "rhs" : {
+            "type" : "CharLit",
+            "value" : "\u0000",
+            "pos" : {
+              "line" : 13,
+              "column" : 12
+            }
+          },
+          "pos" : {
+            "line" : 13,
+            "column" : 3
+          }
+        },
+        "second" : {
+          "type" : "Println",
+          "expr" : {
+            "type" : "StrLit",
+            "value" : "enter a character to echo",
+            "pos" : {
+              "line" : 14,
+              "column" : 11
+            }
+          },
+          "pos" : {
+            "line" : 14,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 13,
+          "column" : 17
+        }
+      },
+      "second" : {
+        "type" : "Read",
+        "lvalue" : {
+          "type" : "Ident",
+          "name" : "c",
+          "pos" : {
+            "line" : 15,
+            "column" : 8
+          }
+        },
+        "pos" : {
+          "line" : 15,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 14,
+        "column" : 38
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "c",
+        "pos" : {
+          "line" : 16,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 16,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 15,
+      "column" : 10
+    }
+  },
+  "pos" : {
+    "line" : 12,
+    "column" : 1
+  }
+}

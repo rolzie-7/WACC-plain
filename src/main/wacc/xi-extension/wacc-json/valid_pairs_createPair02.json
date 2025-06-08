@@ -1,0 +1,82 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "Declare",
+    "varType" : {
+      "type" : "PairType",
+      "firstType" : {
+        "type" : "PairElemType2",
+        "baseType" : {
+          "type" : "CharType",
+          "pos" : {
+            "line" : 8,
+            "column" : 8
+          }
+        },
+        "pos" : {
+          "line" : 8,
+          "column" : 8
+        }
+      },
+      "secondType" : {
+        "type" : "PairElemType2",
+        "baseType" : {
+          "type" : "CharType",
+          "pos" : {
+            "line" : 8,
+            "column" : 14
+          }
+        },
+        "pos" : {
+          "line" : 8,
+          "column" : 14
+        }
+      },
+      "pos" : {
+        "line" : 8,
+        "column" : 3
+      }
+    },
+    "identifier" : {
+      "type" : "Ident",
+      "name" : "p",
+      "pos" : {
+        "line" : 8,
+        "column" : 20
+      }
+    },
+    "rhs" : {
+      "type" : "NewPair",
+      "first" : {
+        "type" : "CharLit",
+        "value" : "a",
+        "pos" : {
+          "line" : 8,
+          "column" : 32
+        }
+      },
+      "second" : {
+        "type" : "CharLit",
+        "value" : "b",
+        "pos" : {
+          "line" : 8,
+          "column" : 37
+        }
+      },
+      "pos" : {
+        "line" : 8,
+        "column" : 24
+      }
+    },
+    "pos" : {
+      "line" : 8,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 7,
+    "column" : 1
+  }
+}

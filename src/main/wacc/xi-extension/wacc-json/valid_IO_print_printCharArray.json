@@ -1,0 +1,93 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "ArrayType",
+        "baseType" : {
+          "type" : "CharType",
+          "pos" : {
+            "line" : 13,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 13,
+          "column" : 7
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "s",
+        "pos" : {
+          "line" : 13,
+          "column" : 10
+        }
+      },
+      "rhs" : {
+        "type" : "ArrayLit",
+        "elements" : [
+          {
+            "type" : "CharLit",
+            "value" : "h",
+            "pos" : {
+              "line" : 13,
+              "column" : 15
+            }
+          },
+          {
+            "type" : "CharLit",
+            "value" : "i",
+            "pos" : {
+              "line" : 13,
+              "column" : 19
+            }
+          },
+          {
+            "type" : "CharLit",
+            "value" : "!",
+            "pos" : {
+              "line" : 13,
+              "column" : 23
+            }
+          }
+        ],
+        "pos" : {
+          "line" : 13,
+          "column" : 14
+        }
+      },
+      "pos" : {
+        "line" : 13,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "s",
+        "pos" : {
+          "line" : 14,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 14,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 13,
+      "column" : 27
+    }
+  },
+  "pos" : {
+    "line" : 12,
+    "column" : 1
+  }
+}

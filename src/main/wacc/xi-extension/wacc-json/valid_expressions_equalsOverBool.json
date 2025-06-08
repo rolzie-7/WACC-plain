@@ -1,0 +1,284 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "Declare",
+              "varType" : {
+                "type" : "BoolType",
+                "pos" : {
+                  "line" : 11,
+                  "column" : 3
+                }
+              },
+              "identifier" : {
+                "type" : "Ident",
+                "name" : "p",
+                "pos" : {
+                  "line" : 11,
+                  "column" : 8
+                }
+              },
+              "rhs" : {
+                "type" : "BoolLit",
+                "value" : true,
+                "pos" : {
+                  "line" : 11,
+                  "column" : 12
+                }
+              },
+              "pos" : {
+                "line" : 11,
+                "column" : 3
+              }
+            },
+            "second" : {
+              "type" : "Declare",
+              "varType" : {
+                "type" : "BoolType",
+                "pos" : {
+                  "line" : 12,
+                  "column" : 3
+                }
+              },
+              "identifier" : {
+                "type" : "Ident",
+                "name" : "q",
+                "pos" : {
+                  "line" : 12,
+                  "column" : 8
+                }
+              },
+              "rhs" : {
+                "type" : "BoolLit",
+                "value" : true,
+                "pos" : {
+                  "line" : 12,
+                  "column" : 12
+                }
+              },
+              "pos" : {
+                "line" : 12,
+                "column" : 3
+              }
+            },
+            "pos" : {
+              "line" : 11,
+              "column" : 17
+            }
+          },
+          "second" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "BoolType",
+              "pos" : {
+                "line" : 13,
+                "column" : 3
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "r",
+              "pos" : {
+                "line" : 13,
+                "column" : 8
+              }
+            },
+            "rhs" : {
+              "type" : "BoolLit",
+              "value" : false,
+              "pos" : {
+                "line" : 13,
+                "column" : 12
+              }
+            },
+            "pos" : {
+              "line" : 13,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 12,
+            "column" : 17
+          }
+        },
+        "second" : {
+          "type" : "Declare",
+          "varType" : {
+            "type" : "BoolType",
+            "pos" : {
+              "line" : 14,
+              "column" : 3
+            }
+          },
+          "identifier" : {
+            "type" : "Ident",
+            "name" : "s",
+            "pos" : {
+              "line" : 14,
+              "column" : 8
+            }
+          },
+          "rhs" : {
+            "type" : "BoolLit",
+            "value" : true,
+            "pos" : {
+              "line" : 14,
+              "column" : 12
+            }
+          },
+          "pos" : {
+            "line" : 14,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 13,
+          "column" : 18
+        }
+      },
+      "second" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "Or",
+          "left" : {
+            "type" : "And",
+            "left" : {
+              "type" : "Ident",
+              "name" : "p",
+              "pos" : {
+                "line" : 15,
+                "column" : 11
+              }
+            },
+            "right" : {
+              "type" : "NE",
+              "left" : {
+                "type" : "Ident",
+                "name" : "q",
+                "pos" : {
+                  "line" : 15,
+                  "column" : 16
+                }
+              },
+              "right" : {
+                "type" : "Ident",
+                "name" : "r",
+                "pos" : {
+                  "line" : 15,
+                  "column" : 21
+                }
+              },
+              "pos" : {
+                "line" : 15,
+                "column" : 18
+              }
+            },
+            "pos" : {
+              "line" : 15,
+              "column" : 13
+            }
+          },
+          "right" : {
+            "type" : "Ident",
+            "name" : "s",
+            "pos" : {
+              "line" : 15,
+              "column" : 26
+            }
+          },
+          "pos" : {
+            "line" : 15,
+            "column" : 23
+          }
+        },
+        "pos" : {
+          "line" : 15,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 14,
+        "column" : 17
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "NE",
+        "left" : {
+          "type" : "And",
+          "left" : {
+            "type" : "Ident",
+            "name" : "p",
+            "pos" : {
+              "line" : 16,
+              "column" : 12
+            }
+          },
+          "right" : {
+            "type" : "Ident",
+            "name" : "q",
+            "pos" : {
+              "line" : 16,
+              "column" : 17
+            }
+          },
+          "pos" : {
+            "line" : 16,
+            "column" : 14
+          }
+        },
+        "right" : {
+          "type" : "Or",
+          "left" : {
+            "type" : "Ident",
+            "name" : "r",
+            "pos" : {
+              "line" : 16,
+              "column" : 24
+            }
+          },
+          "right" : {
+            "type" : "Ident",
+            "name" : "s",
+            "pos" : {
+              "line" : 16,
+              "column" : 29
+            }
+          },
+          "pos" : {
+            "line" : 16,
+            "column" : 26
+          }
+        },
+        "pos" : {
+          "line" : 16,
+          "column" : 20
+        }
+      },
+      "pos" : {
+        "line" : 16,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 15,
+      "column" : 28
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}

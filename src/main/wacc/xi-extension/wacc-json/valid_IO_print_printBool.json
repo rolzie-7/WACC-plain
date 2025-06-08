@@ -1,0 +1,90 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "Print",
+          "expr" : {
+            "type" : "StrLit",
+            "value" : "True is ",
+            "pos" : {
+              "line" : 11,
+              "column" : 9
+            }
+          },
+          "pos" : {
+            "line" : 11,
+            "column" : 3
+          }
+        },
+        "second" : {
+          "type" : "Println",
+          "expr" : {
+            "type" : "BoolLit",
+            "value" : true,
+            "pos" : {
+              "line" : 12,
+              "column" : 11
+            }
+          },
+          "pos" : {
+            "line" : 12,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 20
+        }
+      },
+      "second" : {
+        "type" : "Print",
+        "expr" : {
+          "type" : "StrLit",
+          "value" : "False is ",
+          "pos" : {
+            "line" : 14,
+            "column" : 9
+          }
+        },
+        "pos" : {
+          "line" : 14,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 12,
+        "column" : 16
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "BoolLit",
+        "value" : false,
+        "pos" : {
+          "line" : 15,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 15,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 14,
+      "column" : 21
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}

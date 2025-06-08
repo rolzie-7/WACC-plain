@@ -1,0 +1,265 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "PairType",
+              "firstType" : {
+                "type" : "PairElemType2",
+                "baseType" : {
+                  "type" : "IntType",
+                  "pos" : {
+                    "line" : 10,
+                    "column" : 8
+                  }
+                },
+                "pos" : {
+                  "line" : 10,
+                  "column" : 8
+                }
+              },
+              "secondType" : {
+                "type" : "PairElemType2",
+                "baseType" : {
+                  "type" : "IntType",
+                  "pos" : {
+                    "line" : 10,
+                    "column" : 13
+                  }
+                },
+                "pos" : {
+                  "line" : 10,
+                  "column" : 13
+                }
+              },
+              "pos" : {
+                "line" : 10,
+                "column" : 3
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "p",
+              "pos" : {
+                "line" : 10,
+                "column" : 18
+              }
+            },
+            "rhs" : {
+              "type" : "NewPair",
+              "first" : {
+                "type" : "IntLit",
+                "value" : 2,
+                "pos" : {
+                  "line" : 10,
+                  "column" : 30
+                }
+              },
+              "second" : {
+                "type" : "IntLit",
+                "value" : 3,
+                "pos" : {
+                  "line" : 10,
+                  "column" : 33
+                }
+              },
+              "pos" : {
+                "line" : 10,
+                "column" : 22
+              }
+            },
+            "pos" : {
+              "line" : 10,
+              "column" : 3
+            }
+          },
+          "second" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "PairType",
+              "firstType" : {
+                "type" : "PairElemType2",
+                "baseType" : {
+                  "type" : "IntType",
+                  "pos" : {
+                    "line" : 11,
+                    "column" : 8
+                  }
+                },
+                "pos" : {
+                  "line" : 11,
+                  "column" : 8
+                }
+              },
+              "secondType" : {
+                "type" : "PairElemType1",
+                "pos" : {
+                  "line" : 11,
+                  "column" : 13
+                }
+              },
+              "pos" : {
+                "line" : 11,
+                "column" : 3
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "q",
+              "pos" : {
+                "line" : 11,
+                "column" : 19
+              }
+            },
+            "rhs" : {
+              "type" : "NewPair",
+              "first" : {
+                "type" : "IntLit",
+                "value" : 1,
+                "pos" : {
+                  "line" : 11,
+                  "column" : 31
+                }
+              },
+              "second" : {
+                "type" : "Ident",
+                "name" : "p",
+                "pos" : {
+                  "line" : 11,
+                  "column" : 34
+                }
+              },
+              "pos" : {
+                "line" : 11,
+                "column" : 23
+              }
+            },
+            "pos" : {
+              "line" : 11,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 10,
+            "column" : 36
+          }
+        },
+        "second" : {
+          "type" : "Assign",
+          "lhs" : {
+            "type" : "Fst",
+            "pair" : {
+              "type" : "Snd",
+              "pair" : {
+                "type" : "Ident",
+                "name" : "q",
+                "pos" : {
+                  "line" : 12,
+                  "column" : 11
+                }
+              },
+              "pos" : {
+                "line" : 12,
+                "column" : 7
+              }
+            },
+            "pos" : {
+              "line" : 12,
+              "column" : 3
+            }
+          },
+          "rhs" : {
+            "type" : "IntLit",
+            "value" : 7,
+            "pos" : {
+              "line" : 12,
+              "column" : 15
+            }
+          },
+          "pos" : {
+            "line" : 12,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 37
+        }
+      },
+      "second" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "IntType",
+          "pos" : {
+            "line" : 13,
+            "column" : 3
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "x",
+          "pos" : {
+            "line" : 13,
+            "column" : 7
+          }
+        },
+        "rhs" : {
+          "type" : "Fst",
+          "pair" : {
+            "type" : "Ident",
+            "name" : "p",
+            "pos" : {
+              "line" : 13,
+              "column" : 15
+            }
+          },
+          "pos" : {
+            "line" : 13,
+            "column" : 11
+          }
+        },
+        "pos" : {
+          "line" : 13,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 12,
+        "column" : 17
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "x",
+        "pos" : {
+          "line" : 14,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 14,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 13,
+      "column" : 17
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

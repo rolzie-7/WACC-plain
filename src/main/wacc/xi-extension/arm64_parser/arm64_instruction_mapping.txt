@@ -1,0 +1,72 @@
+# ARM64 Instruction Types for One-Hot Encoding
+# Sequential mapping (0-50) for efficient one-hot representation
+
+# Data processing (registers)
+ADD = 0      # Add: Rd = Rn + Rm
+SUB = 1      # Subtract: Rd = Rn - Rm
+MUL = 2      # Multiply: Rd = Rn * Rm
+SDIV = 3     # Signed Divide: Rd = Rn / Rm (signed)
+UDIV = 4     # Unsigned Divide: Rd = Rn / Rm (unsigned)
+AND = 5      # Bitwise AND: Rd = Rn & Rm
+ORR = 6      # Bitwise OR: Rd = Rn | Rm
+EOR = 7      # Bitwise XOR: Rd = Rn ^ Rm
+LSL = 8      # Logical Shift Left: Rd = Rn << Rm
+LSR = 9      # Logical Shift Right: Rd = Rn >> Rm (zero fill)
+ASR = 10     # Arithmetic Shift Right: Rd = Rn >> Rm (sign extend)
+
+# Data processing (immediate)
+ADDI = 11    # Add Immediate: Rd = Rn + imm
+SUBI = 12    # Subtract Immediate: Rd = Rn - imm
+ANDI = 13    # AND Immediate: Rd = Rn & imm
+ORRI = 14    # OR Immediate: Rd = Rn | imm
+EORI = 15    # XOR Immediate: Rd = Rn ^ imm
+MOVZ = 16    # Move Wide with Zero: Rd = imm << (16*shift)
+MOVN = 17    # Move Wide with NOT: Rd = ~(imm << (16*shift))
+MOVK = 18    # Move Wide with Keep: Rd[16*shift:16*shift+15] = imm
+
+# Memory operations
+LDR = 19     # Load Register: Rd = [address]
+STR = 20     # Store Register: [address] = Rd
+LDRB = 21    # Load Byte: Rd = [address] (byte)
+STRB = 22    # Store Byte: [address] = Rd (byte)
+LDRH = 23    # Load Halfword: Rd = [address] (halfword)
+STRH = 24    # Store Halfword: [address] = Rd (halfword)
+LDRSB = 25   # Load Signed Byte: Rd = sign_extend([address] (byte))
+LDRSH = 26   # Load Signed Halfword: Rd = sign_extend([address] (halfword))
+LDRSW = 27   # Load Signed Word: Rd = sign_extend([address] (word))
+LDP = 28     # Load Pair: Rd1,Rd2 = [address],[(address)+8]
+STP = 29     # Store Pair: [address],[(address)+8] = Rd1,Rd2
+
+# Control flow
+B = 30       # Branch: PC = label
+BL = 31      # Branch with Link: LR = PC+4; PC = label
+BR = 32      # Branch to Register: PC = Rn
+BLR = 33     # Branch with Link to Register: LR = PC+4; PC = Rn
+RET = 34     # Return: PC = LR
+CBZ = 35     # Compare and Branch if Zero: if (Rd == 0) PC = label
+CBNZ = 36    # Compare and Branch if Not Zero: if (Rd != 0) PC = label
+TBZ = 37     # Test bit and Branch if Zero: if ((Rd & (1<<imm)) == 0) PC = label
+TBNZ = 38    # Test bit and Branch if Not Zero: if ((Rd & (1<<imm)) != 0) PC = label
+B_COND = 39  # Conditional Branch: if (condition) PC = label
+
+# Comparison
+CMP = 40     # Compare: NZCV = flags(Rn - Rm)
+CMPI = 41    # Compare Immediate: NZCV = flags(Rn - imm)
+CMN = 42     # Compare Negative: NZCV = flags(Rn + Rm)
+CMNI = 43    # Compare Negative Immediate: NZCV = flags(Rn + imm)
+TST = 44     # Test bits: NZCV = flags(Rn & Rm)
+TSTI = 45    # Test bits Immediate: NZCV = flags(Rn & imm)
+
+# Miscellaneous
+NOP = 46     # No Operation: do nothing
+SVC = 47     # Supervisor Call: OS/system call
+HLT = 48     # Halt: stop execution
+
+# Extension for additional instructions if needed
+MADD = 49    # Multiply-Add: Rd = Ra + (Rn * Rm)
+MSUB = 50    # Multiply-Subtract: Rd = Ra - (Rn * Rm)
+
+# ===== ONE-HOT ENCODING USAGE =====
+# For a one-hot encoding, use a 51-element array (positions 0-50)
+# Set the position corresponding to the instruction type to 1, all others to 0
+# Example for ADD instruction: [1,0,0,0,0,0,...,0] 

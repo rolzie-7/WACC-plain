@@ -1,0 +1,356 @@
+{
+  "type" : "Program",
+  "functions" : [
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 15,
+          "column" : 3
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "f",
+        "pos" : {
+          "line" : 15,
+          "column" : 7
+        }
+      },
+      "params" : [
+        {
+          "type" : "Param",
+          "paramType" : {
+            "type" : "IntType",
+            "pos" : {
+              "line" : 15,
+              "column" : 9
+            }
+          },
+          "name" : {
+            "type" : "Ident",
+            "name" : "x",
+            "pos" : {
+              "line" : 15,
+              "column" : 13
+            }
+          }
+        }
+      ],
+      "body" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "StmtList",
+              "first" : {
+                "type" : "StmtList",
+                "first" : {
+                  "type" : "Print",
+                  "expr" : {
+                    "type" : "StrLit",
+                    "value" : "x is ",
+                    "pos" : {
+                      "line" : 16,
+                      "column" : 11
+                    }
+                  },
+                  "pos" : {
+                    "line" : 16,
+                    "column" : 5
+                  }
+                },
+                "second" : {
+                  "type" : "Println",
+                  "expr" : {
+                    "type" : "Ident",
+                    "name" : "x",
+                    "pos" : {
+                      "line" : 17,
+                      "column" : 13
+                    }
+                  },
+                  "pos" : {
+                    "line" : 17,
+                    "column" : 5
+                  }
+                },
+                "pos" : {
+                  "line" : 16,
+                  "column" : 18
+                }
+              },
+              "second" : {
+                "type" : "Assign",
+                "lhs" : {
+                  "type" : "Ident",
+                  "name" : "x",
+                  "pos" : {
+                    "line" : 18,
+                    "column" : 5
+                  }
+                },
+                "rhs" : {
+                  "type" : "IntLit",
+                  "value" : 5,
+                  "pos" : {
+                    "line" : 18,
+                    "column" : 9
+                  }
+                },
+                "pos" : {
+                  "line" : 18,
+                  "column" : 5
+                }
+              },
+              "pos" : {
+                "line" : 17,
+                "column" : 14
+              }
+            },
+            "second" : {
+              "type" : "Print",
+              "expr" : {
+                "type" : "StrLit",
+                "value" : "x is now ",
+                "pos" : {
+                  "line" : 19,
+                  "column" : 11
+                }
+              },
+              "pos" : {
+                "line" : 19,
+                "column" : 5
+              }
+            },
+            "pos" : {
+              "line" : 18,
+              "column" : 10
+            }
+          },
+          "second" : {
+            "type" : "Println",
+            "expr" : {
+              "type" : "Ident",
+              "name" : "x",
+              "pos" : {
+                "line" : 20,
+                "column" : 13
+              }
+            },
+            "pos" : {
+              "line" : 20,
+              "column" : 5
+            }
+          },
+          "pos" : {
+            "line" : 19,
+            "column" : 22
+          }
+        },
+        "second" : {
+          "type" : "Return",
+          "expr" : {
+            "type" : "Ident",
+            "name" : "x",
+            "pos" : {
+              "line" : 21,
+              "column" : 12
+            }
+          },
+          "pos" : {
+            "line" : 21,
+            "column" : 5
+          }
+        },
+        "pos" : {
+          "line" : 20,
+          "column" : 14
+        }
+      },
+      "pos" : {
+        "line" : 15,
+        "column" : 3
+      }
+    }
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "Declare",
+              "varType" : {
+                "type" : "IntType",
+                "pos" : {
+                  "line" : 24,
+                  "column" : 3
+                }
+              },
+              "identifier" : {
+                "type" : "Ident",
+                "name" : "y",
+                "pos" : {
+                  "line" : 24,
+                  "column" : 7
+                }
+              },
+              "rhs" : {
+                "type" : "IntLit",
+                "value" : 1,
+                "pos" : {
+                  "line" : 24,
+                  "column" : 11
+                }
+              },
+              "pos" : {
+                "line" : 24,
+                "column" : 3
+              }
+            },
+            "second" : {
+              "type" : "Print",
+              "expr" : {
+                "type" : "StrLit",
+                "value" : "y is ",
+                "pos" : {
+                  "line" : 25,
+                  "column" : 9
+                }
+              },
+              "pos" : {
+                "line" : 25,
+                "column" : 3
+              }
+            },
+            "pos" : {
+              "line" : 24,
+              "column" : 12
+            }
+          },
+          "second" : {
+            "type" : "Println",
+            "expr" : {
+              "type" : "Ident",
+              "name" : "y",
+              "pos" : {
+                "line" : 26,
+                "column" : 11
+              }
+            },
+            "pos" : {
+              "line" : 26,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 25,
+            "column" : 16
+          }
+        },
+        "second" : {
+          "type" : "Declare",
+          "varType" : {
+            "type" : "IntType",
+            "pos" : {
+              "line" : 27,
+              "column" : 3
+            }
+          },
+          "identifier" : {
+            "type" : "Ident",
+            "name" : "x",
+            "pos" : {
+              "line" : 27,
+              "column" : 7
+            }
+          },
+          "rhs" : {
+            "type" : "Call",
+            "function" : {
+              "type" : "Ident",
+              "name" : "f",
+              "pos" : {
+                "line" : 27,
+                "column" : 16
+              }
+            },
+            "args" : [
+              {
+                "type" : "Ident",
+                "name" : "y",
+                "pos" : {
+                  "line" : 27,
+                  "column" : 18
+                }
+              }
+            ],
+            "pos" : {
+              "line" : 27,
+              "column" : 11
+            }
+          },
+          "pos" : {
+            "line" : 27,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 26,
+          "column" : 12
+        }
+      },
+      "second" : {
+        "type" : "Print",
+        "expr" : {
+          "type" : "StrLit",
+          "value" : "y is still ",
+          "pos" : {
+            "line" : 28,
+            "column" : 9
+          }
+        },
+        "pos" : {
+          "line" : 28,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 27,
+        "column" : 20
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "y",
+        "pos" : {
+          "line" : 29,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 29,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 28,
+      "column" : 22
+    }
+  },
+  "pos" : {
+    "line" : 13,
+    "column" : 1
+  }
+}

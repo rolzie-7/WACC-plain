@@ -1,0 +1,39 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "Println",
+    "expr" : {
+      "type" : "Add",
+      "left" : {
+        "type" : "IntLit",
+        "value" : 1,
+        "pos" : {
+          "line" : 10,
+          "column" : 11
+        }
+      },
+      "right" : {
+        "type" : "IntLit",
+        "value" : -2,
+        "pos" : {
+          "line" : 10,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 12
+      }
+    },
+    "pos" : {
+      "line" : 10,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

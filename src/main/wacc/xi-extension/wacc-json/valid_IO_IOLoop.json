@@ -1,0 +1,260 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "CharType",
+          "pos" : {
+            "line" : 29,
+            "column" : 3
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "continue",
+          "pos" : {
+            "line" : 29,
+            "column" : 8
+          }
+        },
+        "rhs" : {
+          "type" : "CharLit",
+          "value" : "Y",
+          "pos" : {
+            "line" : 29,
+            "column" : 19
+          }
+        },
+        "pos" : {
+          "line" : 29,
+          "column" : 3
+        }
+      },
+      "second" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "IntType",
+          "pos" : {
+            "line" : 30,
+            "column" : 3
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "buff",
+          "pos" : {
+            "line" : 30,
+            "column" : 7
+          }
+        },
+        "rhs" : {
+          "type" : "IntLit",
+          "value" : 0,
+          "pos" : {
+            "line" : 30,
+            "column" : 14
+          }
+        },
+        "pos" : {
+          "line" : 30,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 29,
+        "column" : 23
+      }
+    },
+    "second" : {
+      "type" : "WhileDo",
+      "condition" : {
+        "type" : "NE",
+        "left" : {
+          "type" : "Ident",
+          "name" : "continue",
+          "pos" : {
+            "line" : 31,
+            "column" : 9
+          }
+        },
+        "right" : {
+          "type" : "CharLit",
+          "value" : "N",
+          "pos" : {
+            "line" : 31,
+            "column" : 21
+          }
+        },
+        "pos" : {
+          "line" : 31,
+          "column" : 18
+        }
+      },
+      "body" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "StmtList",
+              "first" : {
+                "type" : "StmtList",
+                "first" : {
+                  "type" : "StmtList",
+                  "first" : {
+                    "type" : "Print",
+                    "expr" : {
+                      "type" : "StrLit",
+                      "value" : "Please input an integer: ",
+                      "pos" : {
+                        "line" : 32,
+                        "column" : 11
+                      }
+                    },
+                    "pos" : {
+                      "line" : 32,
+                      "column" : 5
+                    }
+                  },
+                  "second" : {
+                    "type" : "Read",
+                    "lvalue" : {
+                      "type" : "Ident",
+                      "name" : "buff",
+                      "pos" : {
+                        "line" : 33,
+                        "column" : 10
+                      }
+                    },
+                    "pos" : {
+                      "line" : 33,
+                      "column" : 5
+                    }
+                  },
+                  "pos" : {
+                    "line" : 32,
+                    "column" : 39
+                  }
+                },
+                "second" : {
+                  "type" : "Print",
+                  "expr" : {
+                    "type" : "StrLit",
+                    "value" : "echo input: ",
+                    "pos" : {
+                      "line" : 34,
+                      "column" : 11
+                    }
+                  },
+                  "pos" : {
+                    "line" : 34,
+                    "column" : 5
+                  }
+                },
+                "pos" : {
+                  "line" : 33,
+                  "column" : 15
+                }
+              },
+              "second" : {
+                "type" : "Println",
+                "expr" : {
+                  "type" : "Ident",
+                  "name" : "buff",
+                  "pos" : {
+                    "line" : 35,
+                    "column" : 13
+                  }
+                },
+                "pos" : {
+                  "line" : 35,
+                  "column" : 5
+                }
+              },
+              "pos" : {
+                "line" : 34,
+                "column" : 26
+              }
+            },
+            "second" : {
+              "type" : "Println",
+              "expr" : {
+                "type" : "StrLit",
+                "value" : "Do you want to continue entering input?",
+                "pos" : {
+                  "line" : 36,
+                  "column" : 13
+                }
+              },
+              "pos" : {
+                "line" : 36,
+                "column" : 5
+              }
+            },
+            "pos" : {
+              "line" : 35,
+              "column" : 18
+            }
+          },
+          "second" : {
+            "type" : "Println",
+            "expr" : {
+              "type" : "StrLit",
+              "value" : "(enter Y for 'yes' and N for 'no')",
+              "pos" : {
+                "line" : 37,
+                "column" : 13
+              }
+            },
+            "pos" : {
+              "line" : 37,
+              "column" : 5
+            }
+          },
+          "pos" : {
+            "line" : 36,
+            "column" : 55
+          }
+        },
+        "second" : {
+          "type" : "Read",
+          "lvalue" : {
+            "type" : "Ident",
+            "name" : "continue",
+            "pos" : {
+              "line" : 38,
+              "column" : 10
+            }
+          },
+          "pos" : {
+            "line" : 38,
+            "column" : 5
+          }
+        },
+        "pos" : {
+          "line" : 37,
+          "column" : 54
+        }
+      },
+      "pos" : {
+        "line" : 31,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 30,
+      "column" : 16
+    }
+  },
+  "pos" : {
+    "line" : 28,
+    "column" : 1
+  }
+}

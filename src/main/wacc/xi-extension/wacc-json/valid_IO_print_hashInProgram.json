@@ -1,0 +1,105 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "Declare",
+          "varType" : {
+            "type" : "IntType",
+            "pos" : {
+              "line" : 11,
+              "column" : 3
+            }
+          },
+          "identifier" : {
+            "type" : "Ident",
+            "name" : "x",
+            "pos" : {
+              "line" : 11,
+              "column" : 7
+            }
+          },
+          "rhs" : {
+            "type" : "IntLit",
+            "value" : 0,
+            "pos" : {
+              "line" : 11,
+              "column" : 11
+            }
+          },
+          "pos" : {
+            "line" : 11,
+            "column" : 3
+          }
+        },
+        "second" : {
+          "type" : "Print",
+          "expr" : {
+            "type" : "StrLit",
+            "value" : "We can print the hash character: ",
+            "pos" : {
+              "line" : 12,
+              "column" : 9
+            }
+          },
+          "pos" : {
+            "line" : 12,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 13
+        }
+      },
+      "second" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "CharLit",
+          "value" : "#",
+          "pos" : {
+            "line" : 13,
+            "column" : 11
+          }
+        },
+        "pos" : {
+          "line" : 13,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 12,
+        "column" : 45
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "StrLit",
+        "value" : "We can also print # when its in a string.",
+        "pos" : {
+          "line" : 14,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 14,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 13,
+      "column" : 15
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}

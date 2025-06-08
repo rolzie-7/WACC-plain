@@ -1,0 +1,16 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "Skip",
+    "pos" : {
+      "line" : 7,
+      "column" : 7
+    }
+  },
+  "pos" : {
+    "line" : 7,
+    "column" : 1
+  }
+}

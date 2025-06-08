@@ -1,0 +1,187 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "BoolType",
+              "pos" : {
+                "line" : 12,
+                "column" : 3
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "a",
+              "pos" : {
+                "line" : 12,
+                "column" : 8
+              }
+            },
+            "rhs" : {
+              "type" : "BoolLit",
+              "value" : true,
+              "pos" : {
+                "line" : 12,
+                "column" : 12
+              }
+            },
+            "pos" : {
+              "line" : 12,
+              "column" : 3
+            }
+          },
+          "second" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "BoolType",
+              "pos" : {
+                "line" : 13,
+                "column" : 3
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "b",
+              "pos" : {
+                "line" : 13,
+                "column" : 8
+              }
+            },
+            "rhs" : {
+              "type" : "BoolLit",
+              "value" : false,
+              "pos" : {
+                "line" : 13,
+                "column" : 12
+              }
+            },
+            "pos" : {
+              "line" : 13,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 12,
+            "column" : 17
+          }
+        },
+        "second" : {
+          "type" : "Println",
+          "expr" : {
+            "type" : "Or",
+            "left" : {
+              "type" : "Ident",
+              "name" : "a",
+              "pos" : {
+                "line" : 14,
+                "column" : 11
+              }
+            },
+            "right" : {
+              "type" : "Ident",
+              "name" : "b",
+              "pos" : {
+                "line" : 14,
+                "column" : 16
+              }
+            },
+            "pos" : {
+              "line" : 14,
+              "column" : 13
+            }
+          },
+          "pos" : {
+            "line" : 14,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 13,
+          "column" : 18
+        }
+      },
+      "second" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "Or",
+          "left" : {
+            "type" : "Ident",
+            "name" : "a",
+            "pos" : {
+              "line" : 15,
+              "column" : 11
+            }
+          },
+          "right" : {
+            "type" : "BoolLit",
+            "value" : true,
+            "pos" : {
+              "line" : 15,
+              "column" : 16
+            }
+          },
+          "pos" : {
+            "line" : 15,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 15,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 14,
+        "column" : 18
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Or",
+        "left" : {
+          "type" : "Ident",
+          "name" : "b",
+          "pos" : {
+            "line" : 16,
+            "column" : 11
+          }
+        },
+        "right" : {
+          "type" : "BoolLit",
+          "value" : false,
+          "pos" : {
+            "line" : 16,
+            "column" : 16
+          }
+        },
+        "pos" : {
+          "line" : 16,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 16,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 15,
+      "column" : 21
+    }
+  },
+  "pos" : {
+    "line" : 11,
+    "column" : 1
+  }
+}

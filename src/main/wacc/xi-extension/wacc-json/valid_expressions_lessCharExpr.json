@@ -1,0 +1,187 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "CharType",
+              "pos" : {
+                "line" : 11,
+                "column" : 3
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "a",
+              "pos" : {
+                "line" : 11,
+                "column" : 8
+              }
+            },
+            "rhs" : {
+              "type" : "CharLit",
+              "value" : "a",
+              "pos" : {
+                "line" : 11,
+                "column" : 12
+              }
+            },
+            "pos" : {
+              "line" : 11,
+              "column" : 3
+            }
+          },
+          "second" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "CharType",
+              "pos" : {
+                "line" : 12,
+                "column" : 3
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "e",
+              "pos" : {
+                "line" : 12,
+                "column" : 8
+              }
+            },
+            "rhs" : {
+              "type" : "CharLit",
+              "value" : "e",
+              "pos" : {
+                "line" : 12,
+                "column" : 12
+              }
+            },
+            "pos" : {
+              "line" : 12,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 11,
+            "column" : 16
+          }
+        },
+        "second" : {
+          "type" : "Declare",
+          "varType" : {
+            "type" : "CharType",
+            "pos" : {
+              "line" : 13,
+              "column" : 3
+            }
+          },
+          "identifier" : {
+            "type" : "Ident",
+            "name" : "c",
+            "pos" : {
+              "line" : 13,
+              "column" : 8
+            }
+          },
+          "rhs" : {
+            "type" : "CharLit",
+            "value" : "c",
+            "pos" : {
+              "line" : 13,
+              "column" : 12
+            }
+          },
+          "pos" : {
+            "line" : 13,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 12,
+          "column" : 16
+        }
+      },
+      "second" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "LT",
+          "left" : {
+            "type" : "Ident",
+            "name" : "a",
+            "pos" : {
+              "line" : 14,
+              "column" : 11
+            }
+          },
+          "right" : {
+            "type" : "Ident",
+            "name" : "e",
+            "pos" : {
+              "line" : 14,
+              "column" : 15
+            }
+          },
+          "pos" : {
+            "line" : 14,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 14,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 13,
+        "column" : 16
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "LT",
+        "left" : {
+          "type" : "Ident",
+          "name" : "e",
+          "pos" : {
+            "line" : 15,
+            "column" : 11
+          }
+        },
+        "right" : {
+          "type" : "Ident",
+          "name" : "c",
+          "pos" : {
+            "line" : 15,
+            "column" : 15
+          }
+        },
+        "pos" : {
+          "line" : 15,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 15,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 14,
+      "column" : 17
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}

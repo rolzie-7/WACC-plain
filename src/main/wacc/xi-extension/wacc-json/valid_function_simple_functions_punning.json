@@ -1,0 +1,187 @@
+{
+  "type" : "Program",
+  "functions" : [
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 9,
+          "column" : 5
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "inc",
+        "pos" : {
+          "line" : 9,
+          "column" : 9
+        }
+      },
+      "params" : [
+        {
+          "type" : "Param",
+          "paramType" : {
+            "type" : "IntType",
+            "pos" : {
+              "line" : 9,
+              "column" : 13
+            }
+          },
+          "name" : {
+            "type" : "Ident",
+            "name" : "x",
+            "pos" : {
+              "line" : 9,
+              "column" : 17
+            }
+          }
+        }
+      ],
+      "body" : {
+        "type" : "Return",
+        "expr" : {
+          "type" : "Add",
+          "left" : {
+            "type" : "Ident",
+            "name" : "x",
+            "pos" : {
+              "line" : 10,
+              "column" : 16
+            }
+          },
+          "right" : {
+            "type" : "IntLit",
+            "value" : 1,
+            "pos" : {
+              "line" : 10,
+              "column" : 20
+            }
+          },
+          "pos" : {
+            "line" : 10,
+            "column" : 18
+          }
+        },
+        "pos" : {
+          "line" : 10,
+          "column" : 9
+        }
+      },
+      "pos" : {
+        "line" : 9,
+        "column" : 5
+      }
+    }
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "IntType",
+          "pos" : {
+            "line" : 12,
+            "column" : 5
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "inc",
+          "pos" : {
+            "line" : 12,
+            "column" : 9
+          }
+        },
+        "rhs" : {
+          "type" : "IntLit",
+          "value" : 0,
+          "pos" : {
+            "line" : 12,
+            "column" : 15
+          }
+        },
+        "pos" : {
+          "line" : 12,
+          "column" : 5
+        }
+      },
+      "second" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "IntType",
+          "pos" : {
+            "line" : 13,
+            "column" : 5
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "tmp",
+          "pos" : {
+            "line" : 13,
+            "column" : 9
+          }
+        },
+        "rhs" : {
+          "type" : "Call",
+          "function" : {
+            "type" : "Ident",
+            "name" : "inc",
+            "pos" : {
+              "line" : 13,
+              "column" : 20
+            }
+          },
+          "args" : [
+            {
+              "type" : "Ident",
+              "name" : "inc",
+              "pos" : {
+                "line" : 13,
+                "column" : 24
+              }
+            }
+          ],
+          "pos" : {
+            "line" : 13,
+            "column" : 15
+          }
+        },
+        "pos" : {
+          "line" : 13,
+          "column" : 5
+        }
+      },
+      "pos" : {
+        "line" : 12,
+        "column" : 16
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "inc",
+        "pos" : {
+          "line" : 14,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 14,
+        "column" : 5
+      }
+    },
+    "pos" : {
+      "line" : 13,
+      "column" : 28
+    }
+  },
+  "pos" : {
+    "line" : 8,
+    "column" : 1
+  }
+}

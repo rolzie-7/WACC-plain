@@ -1,0 +1,54 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "IfThenElse",
+    "condition" : {
+      "type" : "BoolLit",
+      "value" : true,
+      "pos" : {
+        "line" : 10,
+        "column" : 6
+      }
+    },
+    "thenStmt" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "StrLit",
+        "value" : "here",
+        "pos" : {
+          "line" : 12,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 12,
+        "column" : 5
+      }
+    },
+    "elseStmt" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "StrLit",
+        "value" : "not here",
+        "pos" : {
+          "line" : 14,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 14,
+        "column" : 5
+      }
+    },
+    "pos" : {
+      "line" : 10,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

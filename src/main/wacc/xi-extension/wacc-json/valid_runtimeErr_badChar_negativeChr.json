@@ -1,0 +1,46 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "Declare",
+    "varType" : {
+      "type" : "CharType",
+      "pos" : {
+        "line" : 12,
+        "column" : 5
+      }
+    },
+    "identifier" : {
+      "type" : "Ident",
+      "name" : "c",
+      "pos" : {
+        "line" : 12,
+        "column" : 10
+      }
+    },
+    "rhs" : {
+      "type" : "Chr",
+      "expr" : {
+        "type" : "IntLit",
+        "value" : -1,
+        "pos" : {
+          "line" : 12,
+          "column" : 18
+        }
+      },
+      "pos" : {
+        "line" : 12,
+        "column" : 14
+      }
+    },
+    "pos" : {
+      "line" : 12,
+      "column" : 5
+    }
+  },
+  "pos" : {
+    "line" : 11,
+    "column" : 1
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "ArrayType",
+        "baseType" : {
+          "type" : "IntType",
+          "pos" : {
+            "line" : 10,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 10,
+          "column" : 6
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "a",
+        "pos" : {
+          "line" : 10,
+          "column" : 9
+        }
+      },
+      "rhs" : {
+        "type" : "ArrayLit",
+        "elements" : [
+          {
+            "type" : "IntLit",
+            "value" : 43,
+            "pos" : {
+              "line" : 10,
+              "column" : 14
+            }
+          },
+          {
+            "type" : "IntLit",
+            "value" : 2,
+            "pos" : {
+              "line" : 10,
+              "column" : 18
+            }
+          },
+          {
+            "type" : "IntLit",
+            "value" : 18,
+            "pos" : {
+              "line" : 10,
+              "column" : 21
+            }
+          },
+          {
+            "type" : "IntLit",
+            "value" : 1,
+            "pos" : {
+              "line" : 10,
+              "column" : 25
+            }
+          }
+        ],
+        "pos" : {
+          "line" : 10,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Len",
+        "expr" : {
+          "type" : "Ident",
+          "name" : "a",
+          "pos" : {
+            "line" : 11,
+            "column" : 15
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 11,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 10,
+      "column" : 28
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

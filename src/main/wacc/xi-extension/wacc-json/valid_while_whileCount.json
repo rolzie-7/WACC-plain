@@ -1,0 +1,158 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "IntType",
+          "pos" : {
+            "line" : 20,
+            "column" : 3
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "i",
+          "pos" : {
+            "line" : 20,
+            "column" : 7
+          }
+        },
+        "rhs" : {
+          "type" : "IntLit",
+          "value" : 1,
+          "pos" : {
+            "line" : 20,
+            "column" : 11
+          }
+        },
+        "pos" : {
+          "line" : 20,
+          "column" : 3
+        }
+      },
+      "second" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "StrLit",
+          "value" : "Can you count to 10?",
+          "pos" : {
+            "line" : 21,
+            "column" : 11
+          }
+        },
+        "pos" : {
+          "line" : 21,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 20,
+        "column" : 13
+      }
+    },
+    "second" : {
+      "type" : "WhileDo",
+      "condition" : {
+        "type" : "LTE",
+        "left" : {
+          "type" : "Ident",
+          "name" : "i",
+          "pos" : {
+            "line" : 22,
+            "column" : 9
+          }
+        },
+        "right" : {
+          "type" : "IntLit",
+          "value" : 10,
+          "pos" : {
+            "line" : 22,
+            "column" : 14
+          }
+        },
+        "pos" : {
+          "line" : 22,
+          "column" : 11
+        }
+      },
+      "body" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "Println",
+          "expr" : {
+            "type" : "Ident",
+            "name" : "i",
+            "pos" : {
+              "line" : 23,
+              "column" : 13
+            }
+          },
+          "pos" : {
+            "line" : 23,
+            "column" : 5
+          }
+        },
+        "second" : {
+          "type" : "Assign",
+          "lhs" : {
+            "type" : "Ident",
+            "name" : "i",
+            "pos" : {
+              "line" : 24,
+              "column" : 5
+            }
+          },
+          "rhs" : {
+            "type" : "Add",
+            "left" : {
+              "type" : "Ident",
+              "name" : "i",
+              "pos" : {
+                "line" : 24,
+                "column" : 9
+              }
+            },
+            "right" : {
+              "type" : "IntLit",
+              "value" : 1,
+              "pos" : {
+                "line" : 24,
+                "column" : 13
+              }
+            },
+            "pos" : {
+              "line" : 24,
+              "column" : 11
+            }
+          },
+          "pos" : {
+            "line" : 24,
+            "column" : 5
+          }
+        },
+        "pos" : {
+          "line" : 23,
+          "column" : 15
+        }
+      },
+      "pos" : {
+        "line" : 22,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 21,
+      "column" : 34
+    }
+  },
+  "pos" : {
+    "line" : 19,
+    "column" : 1
+  }
+}

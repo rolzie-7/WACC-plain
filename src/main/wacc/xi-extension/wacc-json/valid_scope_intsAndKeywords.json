@@ -1,0 +1,46 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "BeginEnd",
+    "stmt" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 8,
+          "column" : 5
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "x",
+        "pos" : {
+          "line" : 8,
+          "column" : 9
+        }
+      },
+      "rhs" : {
+        "type" : "IntLit",
+        "value" : 125,
+        "pos" : {
+          "line" : 8,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 8,
+        "column" : 5
+      }
+    },
+    "pos" : {
+      "line" : 7,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 6,
+    "column" : 1
+  }
+}

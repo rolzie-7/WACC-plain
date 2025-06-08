@@ -1,0 +1,521 @@
+{
+  "type" : "Program",
+  "functions" : [
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 11,
+          "column" : 3
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "fibonacci",
+        "pos" : {
+          "line" : 11,
+          "column" : 7
+        }
+      },
+      "params" : [
+        {
+          "type" : "Param",
+          "paramType" : {
+            "type" : "IntType",
+            "pos" : {
+              "line" : 11,
+              "column" : 17
+            }
+          },
+          "name" : {
+            "type" : "Ident",
+            "name" : "n",
+            "pos" : {
+              "line" : 11,
+              "column" : 21
+            }
+          }
+        },
+        {
+          "type" : "Param",
+          "paramType" : {
+            "type" : "BoolType",
+            "pos" : {
+              "line" : 11,
+              "column" : 24
+            }
+          },
+          "name" : {
+            "type" : "Ident",
+            "name" : "toPrint",
+            "pos" : {
+              "line" : 11,
+              "column" : 29
+            }
+          }
+        }
+      ],
+      "body" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "StmtList",
+              "first" : {
+                "type" : "IfThenElse",
+                "condition" : {
+                  "type" : "LTE",
+                  "left" : {
+                    "type" : "Ident",
+                    "name" : "n",
+                    "pos" : {
+                      "line" : 12,
+                      "column" : 8
+                    }
+                  },
+                  "right" : {
+                    "type" : "IntLit",
+                    "value" : 1,
+                    "pos" : {
+                      "line" : 12,
+                      "column" : 13
+                    }
+                  },
+                  "pos" : {
+                    "line" : 12,
+                    "column" : 10
+                  }
+                },
+                "thenStmt" : {
+                  "type" : "Return",
+                  "expr" : {
+                    "type" : "Ident",
+                    "name" : "n",
+                    "pos" : {
+                      "line" : 14,
+                      "column" : 14
+                    }
+                  },
+                  "pos" : {
+                    "line" : 14,
+                    "column" : 7
+                  }
+                },
+                "elseStmt" : {
+                  "type" : "Skip",
+                  "pos" : {
+                    "line" : 16,
+                    "column" : 7
+                  }
+                },
+                "pos" : {
+                  "line" : 12,
+                  "column" : 5
+                }
+              },
+              "second" : {
+                "type" : "Declare",
+                "varType" : {
+                  "type" : "IntType",
+                  "pos" : {
+                    "line" : 18,
+                    "column" : 5
+                  }
+                },
+                "identifier" : {
+                  "type" : "Ident",
+                  "name" : "f1",
+                  "pos" : {
+                    "line" : 18,
+                    "column" : 9
+                  }
+                },
+                "rhs" : {
+                  "type" : "Call",
+                  "function" : {
+                    "type" : "Ident",
+                    "name" : "fibonacci",
+                    "pos" : {
+                      "line" : 18,
+                      "column" : 19
+                    }
+                  },
+                  "args" : [
+                    {
+                      "type" : "Sub",
+                      "left" : {
+                        "type" : "Ident",
+                        "name" : "n",
+                        "pos" : {
+                          "line" : 18,
+                          "column" : 29
+                        }
+                      },
+                      "right" : {
+                        "type" : "IntLit",
+                        "value" : 1,
+                        "pos" : {
+                          "line" : 18,
+                          "column" : 33
+                        }
+                      },
+                      "pos" : {
+                        "line" : 18,
+                        "column" : 31
+                      }
+                    },
+                    {
+                      "type" : "Ident",
+                      "name" : "toPrint",
+                      "pos" : {
+                        "line" : 18,
+                        "column" : 36
+                      }
+                    }
+                  ],
+                  "pos" : {
+                    "line" : 18,
+                    "column" : 14
+                  }
+                },
+                "pos" : {
+                  "line" : 18,
+                  "column" : 5
+                }
+              },
+              "pos" : {
+                "line" : 17,
+                "column" : 8
+              }
+            },
+            "second" : {
+              "type" : "IfThenElse",
+              "condition" : {
+                "type" : "Ident",
+                "name" : "toPrint",
+                "pos" : {
+                  "line" : 19,
+                  "column" : 8
+                }
+              },
+              "thenStmt" : {
+                "type" : "StmtList",
+                "first" : {
+                  "type" : "Print",
+                  "expr" : {
+                    "type" : "Ident",
+                    "name" : "f1",
+                    "pos" : {
+                      "line" : 21,
+                      "column" : 13
+                    }
+                  },
+                  "pos" : {
+                    "line" : 21,
+                    "column" : 7
+                  }
+                },
+                "second" : {
+                  "type" : "Print",
+                  "expr" : {
+                    "type" : "StrLit",
+                    "value" : ", ",
+                    "pos" : {
+                      "line" : 22,
+                      "column" : 13
+                    }
+                  },
+                  "pos" : {
+                    "line" : 22,
+                    "column" : 7
+                  }
+                },
+                "pos" : {
+                  "line" : 21,
+                  "column" : 16
+                }
+              },
+              "elseStmt" : {
+                "type" : "Skip",
+                "pos" : {
+                  "line" : 24,
+                  "column" : 7
+                }
+              },
+              "pos" : {
+                "line" : 19,
+                "column" : 5
+              }
+            },
+            "pos" : {
+              "line" : 18,
+              "column" : 45
+            }
+          },
+          "second" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "IntType",
+              "pos" : {
+                "line" : 26,
+                "column" : 5
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "f2",
+              "pos" : {
+                "line" : 26,
+                "column" : 9
+              }
+            },
+            "rhs" : {
+              "type" : "Call",
+              "function" : {
+                "type" : "Ident",
+                "name" : "fibonacci",
+                "pos" : {
+                  "line" : 26,
+                  "column" : 19
+                }
+              },
+              "args" : [
+                {
+                  "type" : "Sub",
+                  "left" : {
+                    "type" : "Ident",
+                    "name" : "n",
+                    "pos" : {
+                      "line" : 26,
+                      "column" : 29
+                    }
+                  },
+                  "right" : {
+                    "type" : "IntLit",
+                    "value" : 2,
+                    "pos" : {
+                      "line" : 26,
+                      "column" : 33
+                    }
+                  },
+                  "pos" : {
+                    "line" : 26,
+                    "column" : 31
+                  }
+                },
+                {
+                  "type" : "BoolLit",
+                  "value" : false,
+                  "pos" : {
+                    "line" : 26,
+                    "column" : 36
+                  }
+                }
+              ],
+              "pos" : {
+                "line" : 26,
+                "column" : 14
+              }
+            },
+            "pos" : {
+              "line" : 26,
+              "column" : 5
+            }
+          },
+          "pos" : {
+            "line" : 25,
+            "column" : 8
+          }
+        },
+        "second" : {
+          "type" : "Return",
+          "expr" : {
+            "type" : "Add",
+            "left" : {
+              "type" : "Ident",
+              "name" : "f1",
+              "pos" : {
+                "line" : 27,
+                "column" : 12
+              }
+            },
+            "right" : {
+              "type" : "Ident",
+              "name" : "f2",
+              "pos" : {
+                "line" : 27,
+                "column" : 17
+              }
+            },
+            "pos" : {
+              "line" : 27,
+              "column" : 15
+            }
+          },
+          "pos" : {
+            "line" : 27,
+            "column" : 5
+          }
+        },
+        "pos" : {
+          "line" : 26,
+          "column" : 43
+        }
+      },
+      "pos" : {
+        "line" : 11,
+        "column" : 3
+      }
+    }
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "Println",
+            "expr" : {
+              "type" : "StrLit",
+              "value" : "The first 20 fibonacci numbers are:",
+              "pos" : {
+                "line" : 30,
+                "column" : 11
+              }
+            },
+            "pos" : {
+              "line" : 30,
+              "column" : 3
+            }
+          },
+          "second" : {
+            "type" : "Print",
+            "expr" : {
+              "type" : "StrLit",
+              "value" : "0, ",
+              "pos" : {
+                "line" : 31,
+                "column" : 9
+              }
+            },
+            "pos" : {
+              "line" : 31,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 30,
+            "column" : 49
+          }
+        },
+        "second" : {
+          "type" : "Declare",
+          "varType" : {
+            "type" : "IntType",
+            "pos" : {
+              "line" : 32,
+              "column" : 3
+            }
+          },
+          "identifier" : {
+            "type" : "Ident",
+            "name" : "result",
+            "pos" : {
+              "line" : 32,
+              "column" : 7
+            }
+          },
+          "rhs" : {
+            "type" : "Call",
+            "function" : {
+              "type" : "Ident",
+              "name" : "fibonacci",
+              "pos" : {
+                "line" : 32,
+                "column" : 21
+              }
+            },
+            "args" : [
+              {
+                "type" : "IntLit",
+                "value" : 19,
+                "pos" : {
+                  "line" : 32,
+                  "column" : 31
+                }
+              },
+              {
+                "type" : "BoolLit",
+                "value" : true,
+                "pos" : {
+                  "line" : 32,
+                  "column" : 35
+                }
+              }
+            ],
+            "pos" : {
+              "line" : 32,
+              "column" : 16
+            }
+          },
+          "pos" : {
+            "line" : 32,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 31,
+          "column" : 15
+        }
+      },
+      "second" : {
+        "type" : "Print",
+        "expr" : {
+          "type" : "Ident",
+          "name" : "result",
+          "pos" : {
+            "line" : 33,
+            "column" : 9
+          }
+        },
+        "pos" : {
+          "line" : 33,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 32,
+        "column" : 41
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "StrLit",
+        "value" : "...",
+        "pos" : {
+          "line" : 34,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 34,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 33,
+      "column" : 16
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}

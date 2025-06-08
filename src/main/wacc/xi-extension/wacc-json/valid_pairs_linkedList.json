@@ -1,0 +1,733 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "StmtList",
+              "first" : {
+                "type" : "StmtList",
+                "first" : {
+                  "type" : "StmtList",
+                  "first" : {
+                    "type" : "StmtList",
+                    "first" : {
+                      "type" : "StmtList",
+                      "first" : {
+                        "type" : "StmtList",
+                        "first" : {
+                          "type" : "Declare",
+                          "varType" : {
+                            "type" : "PairType",
+                            "firstType" : {
+                              "type" : "PairElemType2",
+                              "baseType" : {
+                                "type" : "IntType",
+                                "pos" : {
+                                  "line" : 10,
+                                  "column" : 8
+                                }
+                              },
+                              "pos" : {
+                                "line" : 10,
+                                "column" : 8
+                              }
+                            },
+                            "secondType" : {
+                              "type" : "PairElemType1",
+                              "pos" : {
+                                "line" : 10,
+                                "column" : 13
+                              }
+                            },
+                            "pos" : {
+                              "line" : 10,
+                              "column" : 3
+                            }
+                          },
+                          "identifier" : {
+                            "type" : "Ident",
+                            "name" : "p",
+                            "pos" : {
+                              "line" : 10,
+                              "column" : 19
+                            }
+                          },
+                          "rhs" : {
+                            "type" : "NewPair",
+                            "first" : {
+                              "type" : "IntLit",
+                              "value" : 11,
+                              "pos" : {
+                                "line" : 10,
+                                "column" : 31
+                              }
+                            },
+                            "second" : {
+                              "type" : "PairLit",
+                              "pos" : {
+                                "line" : 10,
+                                "column" : 35
+                              }
+                            },
+                            "pos" : {
+                              "line" : 10,
+                              "column" : 23
+                            }
+                          },
+                          "pos" : {
+                            "line" : 10,
+                            "column" : 3
+                          }
+                        },
+                        "second" : {
+                          "type" : "Declare",
+                          "varType" : {
+                            "type" : "PairType",
+                            "firstType" : {
+                              "type" : "PairElemType2",
+                              "baseType" : {
+                                "type" : "IntType",
+                                "pos" : {
+                                  "line" : 11,
+                                  "column" : 10
+                                }
+                              },
+                              "pos" : {
+                                "line" : 11,
+                                "column" : 10
+                              }
+                            },
+                            "secondType" : {
+                              "type" : "PairElemType1",
+                              "pos" : {
+                                "line" : 11,
+                                "column" : 15
+                              }
+                            },
+                            "pos" : {
+                              "line" : 11,
+                              "column" : 5
+                            }
+                          },
+                          "identifier" : {
+                            "type" : "Ident",
+                            "name" : "q",
+                            "pos" : {
+                              "line" : 11,
+                              "column" : 21
+                            }
+                          },
+                          "rhs" : {
+                            "type" : "NewPair",
+                            "first" : {
+                              "type" : "IntLit",
+                              "value" : 4,
+                              "pos" : {
+                                "line" : 11,
+                                "column" : 33
+                              }
+                            },
+                            "second" : {
+                              "type" : "Ident",
+                              "name" : "p",
+                              "pos" : {
+                                "line" : 11,
+                                "column" : 36
+                              }
+                            },
+                            "pos" : {
+                              "line" : 11,
+                              "column" : 25
+                            }
+                          },
+                          "pos" : {
+                            "line" : 11,
+                            "column" : 5
+                          }
+                        },
+                        "pos" : {
+                          "line" : 10,
+                          "column" : 41
+                        }
+                      },
+                      "second" : {
+                        "type" : "Declare",
+                        "varType" : {
+                          "type" : "PairType",
+                          "firstType" : {
+                            "type" : "PairElemType2",
+                            "baseType" : {
+                              "type" : "IntType",
+                              "pos" : {
+                                "line" : 12,
+                                "column" : 10
+                              }
+                            },
+                            "pos" : {
+                              "line" : 12,
+                              "column" : 10
+                            }
+                          },
+                          "secondType" : {
+                            "type" : "PairElemType1",
+                            "pos" : {
+                              "line" : 12,
+                              "column" : 15
+                            }
+                          },
+                          "pos" : {
+                            "line" : 12,
+                            "column" : 5
+                          }
+                        },
+                        "identifier" : {
+                          "type" : "Ident",
+                          "name" : "r",
+                          "pos" : {
+                            "line" : 12,
+                            "column" : 21
+                          }
+                        },
+                        "rhs" : {
+                          "type" : "NewPair",
+                          "first" : {
+                            "type" : "IntLit",
+                            "value" : 2,
+                            "pos" : {
+                              "line" : 12,
+                              "column" : 33
+                            }
+                          },
+                          "second" : {
+                            "type" : "Ident",
+                            "name" : "q",
+                            "pos" : {
+                              "line" : 12,
+                              "column" : 36
+                            }
+                          },
+                          "pos" : {
+                            "line" : 12,
+                            "column" : 25
+                          }
+                        },
+                        "pos" : {
+                          "line" : 12,
+                          "column" : 5
+                        }
+                      },
+                      "pos" : {
+                        "line" : 11,
+                        "column" : 39
+                      }
+                    },
+                    "second" : {
+                      "type" : "Declare",
+                      "varType" : {
+                        "type" : "PairType",
+                        "firstType" : {
+                          "type" : "PairElemType2",
+                          "baseType" : {
+                            "type" : "IntType",
+                            "pos" : {
+                              "line" : 13,
+                              "column" : 10
+                            }
+                          },
+                          "pos" : {
+                            "line" : 13,
+                            "column" : 10
+                          }
+                        },
+                        "secondType" : {
+                          "type" : "PairElemType1",
+                          "pos" : {
+                            "line" : 13,
+                            "column" : 15
+                          }
+                        },
+                        "pos" : {
+                          "line" : 13,
+                          "column" : 5
+                        }
+                      },
+                      "identifier" : {
+                        "type" : "Ident",
+                        "name" : "s",
+                        "pos" : {
+                          "line" : 13,
+                          "column" : 21
+                        }
+                      },
+                      "rhs" : {
+                        "type" : "NewPair",
+                        "first" : {
+                          "type" : "IntLit",
+                          "value" : 1,
+                          "pos" : {
+                            "line" : 13,
+                            "column" : 33
+                          }
+                        },
+                        "second" : {
+                          "type" : "Ident",
+                          "name" : "r",
+                          "pos" : {
+                            "line" : 13,
+                            "column" : 36
+                          }
+                        },
+                        "pos" : {
+                          "line" : 13,
+                          "column" : 25
+                        }
+                      },
+                      "pos" : {
+                        "line" : 13,
+                        "column" : 5
+                      }
+                    },
+                    "pos" : {
+                      "line" : 12,
+                      "column" : 39
+                    }
+                  },
+                  "second" : {
+                    "type" : "Print",
+                    "expr" : {
+                      "type" : "StrLit",
+                      "value" : "list = {",
+                      "pos" : {
+                        "line" : 14,
+                        "column" : 11
+                      }
+                    },
+                    "pos" : {
+                      "line" : 14,
+                      "column" : 5
+                    }
+                  },
+                  "pos" : {
+                    "line" : 13,
+                    "column" : 39
+                  }
+                },
+                "second" : {
+                  "type" : "Declare",
+                  "varType" : {
+                    "type" : "PairType",
+                    "firstType" : {
+                      "type" : "PairElemType2",
+                      "baseType" : {
+                        "type" : "IntType",
+                        "pos" : {
+                          "line" : 15,
+                          "column" : 10
+                        }
+                      },
+                      "pos" : {
+                        "line" : 15,
+                        "column" : 10
+                      }
+                    },
+                    "secondType" : {
+                      "type" : "PairElemType1",
+                      "pos" : {
+                        "line" : 15,
+                        "column" : 15
+                      }
+                    },
+                    "pos" : {
+                      "line" : 15,
+                      "column" : 5
+                    }
+                  },
+                  "identifier" : {
+                    "type" : "Ident",
+                    "name" : "x",
+                    "pos" : {
+                      "line" : 15,
+                      "column" : 21
+                    }
+                  },
+                  "rhs" : {
+                    "type" : "Ident",
+                    "name" : "s",
+                    "pos" : {
+                      "line" : 15,
+                      "column" : 25
+                    }
+                  },
+                  "pos" : {
+                    "line" : 15,
+                    "column" : 5
+                  }
+                },
+                "pos" : {
+                  "line" : 14,
+                  "column" : 22
+                }
+              },
+              "second" : {
+                "type" : "Declare",
+                "varType" : {
+                  "type" : "PairType",
+                  "firstType" : {
+                    "type" : "PairElemType2",
+                    "baseType" : {
+                      "type" : "IntType",
+                      "pos" : {
+                        "line" : 16,
+                        "column" : 10
+                      }
+                    },
+                    "pos" : {
+                      "line" : 16,
+                      "column" : 10
+                    }
+                  },
+                  "secondType" : {
+                    "type" : "PairElemType1",
+                    "pos" : {
+                      "line" : 16,
+                      "column" : 15
+                    }
+                  },
+                  "pos" : {
+                    "line" : 16,
+                    "column" : 5
+                  }
+                },
+                "identifier" : {
+                  "type" : "Ident",
+                  "name" : "y",
+                  "pos" : {
+                    "line" : 16,
+                    "column" : 21
+                  }
+                },
+                "rhs" : {
+                  "type" : "Snd",
+                  "pair" : {
+                    "type" : "Ident",
+                    "name" : "x",
+                    "pos" : {
+                      "line" : 16,
+                      "column" : 29
+                    }
+                  },
+                  "pos" : {
+                    "line" : 16,
+                    "column" : 25
+                  }
+                },
+                "pos" : {
+                  "line" : 16,
+                  "column" : 5
+                }
+              },
+              "pos" : {
+                "line" : 15,
+                "column" : 27
+              }
+            },
+            "second" : {
+              "type" : "Declare",
+              "varType" : {
+                "type" : "IntType",
+                "pos" : {
+                  "line" : 17,
+                  "column" : 5
+                }
+              },
+              "identifier" : {
+                "type" : "Ident",
+                "name" : "f",
+                "pos" : {
+                  "line" : 17,
+                  "column" : 9
+                }
+              },
+              "rhs" : {
+                "type" : "IntLit",
+                "value" : 0,
+                "pos" : {
+                  "line" : 17,
+                  "column" : 13
+                }
+              },
+              "pos" : {
+                "line" : 17,
+                "column" : 5
+              }
+            },
+            "pos" : {
+              "line" : 16,
+              "column" : 31
+            }
+          },
+          "second" : {
+            "type" : "WhileDo",
+            "condition" : {
+              "type" : "NE",
+              "left" : {
+                "type" : "Ident",
+                "name" : "y",
+                "pos" : {
+                  "line" : 18,
+                  "column" : 11
+                }
+              },
+              "right" : {
+                "type" : "PairLit",
+                "pos" : {
+                  "line" : 18,
+                  "column" : 16
+                }
+              },
+              "pos" : {
+                "line" : 18,
+                "column" : 13
+              }
+            },
+            "body" : {
+              "type" : "StmtList",
+              "first" : {
+                "type" : "StmtList",
+                "first" : {
+                  "type" : "StmtList",
+                  "first" : {
+                    "type" : "StmtList",
+                    "first" : {
+                      "type" : "Assign",
+                      "lhs" : {
+                        "type" : "Ident",
+                        "name" : "f",
+                        "pos" : {
+                          "line" : 19,
+                          "column" : 7
+                        }
+                      },
+                      "rhs" : {
+                        "type" : "Fst",
+                        "pair" : {
+                          "type" : "Ident",
+                          "name" : "x",
+                          "pos" : {
+                            "line" : 19,
+                            "column" : 15
+                          }
+                        },
+                        "pos" : {
+                          "line" : 19,
+                          "column" : 11
+                        }
+                      },
+                      "pos" : {
+                        "line" : 19,
+                        "column" : 7
+                      }
+                    },
+                    "second" : {
+                      "type" : "Print",
+                      "expr" : {
+                        "type" : "Ident",
+                        "name" : "f",
+                        "pos" : {
+                          "line" : 20,
+                          "column" : 13
+                        }
+                      },
+                      "pos" : {
+                        "line" : 20,
+                        "column" : 7
+                      }
+                    },
+                    "pos" : {
+                      "line" : 19,
+                      "column" : 17
+                    }
+                  },
+                  "second" : {
+                    "type" : "Print",
+                    "expr" : {
+                      "type" : "StrLit",
+                      "value" : ", ",
+                      "pos" : {
+                        "line" : 21,
+                        "column" : 13
+                      }
+                    },
+                    "pos" : {
+                      "line" : 21,
+                      "column" : 7
+                    }
+                  },
+                  "pos" : {
+                    "line" : 20,
+                    "column" : 15
+                  }
+                },
+                "second" : {
+                  "type" : "Assign",
+                  "lhs" : {
+                    "type" : "Ident",
+                    "name" : "x",
+                    "pos" : {
+                      "line" : 22,
+                      "column" : 7
+                    }
+                  },
+                  "rhs" : {
+                    "type" : "Ident",
+                    "name" : "y",
+                    "pos" : {
+                      "line" : 22,
+                      "column" : 11
+                    }
+                  },
+                  "pos" : {
+                    "line" : 22,
+                    "column" : 7
+                  }
+                },
+                "pos" : {
+                  "line" : 21,
+                  "column" : 18
+                }
+              },
+              "second" : {
+                "type" : "Assign",
+                "lhs" : {
+                  "type" : "Ident",
+                  "name" : "y",
+                  "pos" : {
+                    "line" : 23,
+                    "column" : 7
+                  }
+                },
+                "rhs" : {
+                  "type" : "Snd",
+                  "pair" : {
+                    "type" : "Ident",
+                    "name" : "x",
+                    "pos" : {
+                      "line" : 23,
+                      "column" : 15
+                    }
+                  },
+                  "pos" : {
+                    "line" : 23,
+                    "column" : 11
+                  }
+                },
+                "pos" : {
+                  "line" : 23,
+                  "column" : 7
+                }
+              },
+              "pos" : {
+                "line" : 22,
+                "column" : 13
+              }
+            },
+            "pos" : {
+              "line" : 18,
+              "column" : 5
+            }
+          },
+          "pos" : {
+            "line" : 17,
+            "column" : 14
+          }
+        },
+        "second" : {
+          "type" : "Assign",
+          "lhs" : {
+            "type" : "Ident",
+            "name" : "f",
+            "pos" : {
+              "line" : 25,
+              "column" : 5
+            }
+          },
+          "rhs" : {
+            "type" : "Fst",
+            "pair" : {
+              "type" : "Ident",
+              "name" : "x",
+              "pos" : {
+                "line" : 25,
+                "column" : 13
+              }
+            },
+            "pos" : {
+              "line" : 25,
+              "column" : 9
+            }
+          },
+          "pos" : {
+            "line" : 25,
+            "column" : 5
+          }
+        },
+        "pos" : {
+          "line" : 24,
+          "column" : 10
+        }
+      },
+      "second" : {
+        "type" : "Print",
+        "expr" : {
+          "type" : "Ident",
+          "name" : "f",
+          "pos" : {
+            "line" : 26,
+            "column" : 11
+          }
+        },
+        "pos" : {
+          "line" : 26,
+          "column" : 5
+        }
+      },
+      "pos" : {
+        "line" : 25,
+        "column" : 15
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "StrLit",
+        "value" : "}",
+        "pos" : {
+          "line" : 27,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 27,
+        "column" : 5
+      }
+    },
+    "pos" : {
+      "line" : 26,
+      "column" : 13
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

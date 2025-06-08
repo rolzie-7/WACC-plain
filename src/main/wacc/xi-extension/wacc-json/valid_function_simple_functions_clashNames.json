@@ -1,0 +1,409 @@
+{
+  "type" : "Program",
+  "functions" : [
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 11,
+          "column" : 5
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "malloc",
+        "pos" : {
+          "line" : 11,
+          "column" : 9
+        }
+      },
+      "params" : [
+      ],
+      "body" : {
+        "type" : "Return",
+        "expr" : {
+          "type" : "IntLit",
+          "value" : 42,
+          "pos" : {
+            "line" : 11,
+            "column" : 28
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 21
+        }
+      },
+      "pos" : {
+        "line" : 11,
+        "column" : 5
+      }
+    },
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 12,
+          "column" : 5
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "scanf",
+        "pos" : {
+          "line" : 12,
+          "column" : 9
+        }
+      },
+      "params" : [
+      ],
+      "body" : {
+        "type" : "Return",
+        "expr" : {
+          "type" : "IntLit",
+          "value" : 37,
+          "pos" : {
+            "line" : 12,
+            "column" : 27
+          }
+        },
+        "pos" : {
+          "line" : 12,
+          "column" : 20
+        }
+      },
+      "pos" : {
+        "line" : 12,
+        "column" : 5
+      }
+    },
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 13,
+          "column" : 5
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "printf",
+        "pos" : {
+          "line" : 13,
+          "column" : 9
+        }
+      },
+      "params" : [
+      ],
+      "body" : {
+        "type" : "Return",
+        "expr" : {
+          "type" : "IntLit",
+          "value" : 20,
+          "pos" : {
+            "line" : 13,
+            "column" : 28
+          }
+        },
+        "pos" : {
+          "line" : 13,
+          "column" : 21
+        }
+      },
+      "pos" : {
+        "line" : 13,
+        "column" : 5
+      }
+    },
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 14,
+          "column" : 5
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "puts",
+        "pos" : {
+          "line" : 14,
+          "column" : 9
+        }
+      },
+      "params" : [
+      ],
+      "body" : {
+        "type" : "Return",
+        "expr" : {
+          "type" : "IntLit",
+          "value" : 2,
+          "pos" : {
+            "line" : 14,
+            "column" : 26
+          }
+        },
+        "pos" : {
+          "line" : 14,
+          "column" : 19
+        }
+      },
+      "pos" : {
+        "line" : 14,
+        "column" : 5
+      }
+    }
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "IntType",
+              "pos" : {
+                "line" : 16,
+                "column" : 5
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "u",
+              "pos" : {
+                "line" : 16,
+                "column" : 9
+              }
+            },
+            "rhs" : {
+              "type" : "Call",
+              "function" : {
+                "type" : "Ident",
+                "name" : "malloc",
+                "pos" : {
+                  "line" : 16,
+                  "column" : 18
+                }
+              },
+              "args" : [
+              ],
+              "pos" : {
+                "line" : 16,
+                "column" : 13
+              }
+            },
+            "pos" : {
+              "line" : 16,
+              "column" : 5
+            }
+          },
+          "second" : {
+            "type" : "Declare",
+            "varType" : {
+              "type" : "IntType",
+              "pos" : {
+                "line" : 17,
+                "column" : 5
+              }
+            },
+            "identifier" : {
+              "type" : "Ident",
+              "name" : "x",
+              "pos" : {
+                "line" : 17,
+                "column" : 9
+              }
+            },
+            "rhs" : {
+              "type" : "Call",
+              "function" : {
+                "type" : "Ident",
+                "name" : "scanf",
+                "pos" : {
+                  "line" : 17,
+                  "column" : 18
+                }
+              },
+              "args" : [
+              ],
+              "pos" : {
+                "line" : 17,
+                "column" : 13
+              }
+            },
+            "pos" : {
+              "line" : 17,
+              "column" : 5
+            }
+          },
+          "pos" : {
+            "line" : 16,
+            "column" : 26
+          }
+        },
+        "second" : {
+          "type" : "Declare",
+          "varType" : {
+            "type" : "IntType",
+            "pos" : {
+              "line" : 18,
+              "column" : 5
+            }
+          },
+          "identifier" : {
+            "type" : "Ident",
+            "name" : "y",
+            "pos" : {
+              "line" : 18,
+              "column" : 9
+            }
+          },
+          "rhs" : {
+            "type" : "Call",
+            "function" : {
+              "type" : "Ident",
+              "name" : "printf",
+              "pos" : {
+                "line" : 18,
+                "column" : 18
+              }
+            },
+            "args" : [
+            ],
+            "pos" : {
+              "line" : 18,
+              "column" : 13
+            }
+          },
+          "pos" : {
+            "line" : 18,
+            "column" : 5
+          }
+        },
+        "pos" : {
+          "line" : 17,
+          "column" : 25
+        }
+      },
+      "second" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "IntType",
+          "pos" : {
+            "line" : 19,
+            "column" : 5
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "z",
+          "pos" : {
+            "line" : 19,
+            "column" : 9
+          }
+        },
+        "rhs" : {
+          "type" : "Call",
+          "function" : {
+            "type" : "Ident",
+            "name" : "puts",
+            "pos" : {
+              "line" : 19,
+              "column" : 18
+            }
+          },
+          "args" : [
+          ],
+          "pos" : {
+            "line" : 19,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 19,
+          "column" : 5
+        }
+      },
+      "pos" : {
+        "line" : 18,
+        "column" : 26
+      }
+    },
+    "second" : {
+      "type" : "Exit",
+      "expr" : {
+        "type" : "Add",
+        "left" : {
+          "type" : "Add",
+          "left" : {
+            "type" : "Add",
+            "left" : {
+              "type" : "Ident",
+              "name" : "u",
+              "pos" : {
+                "line" : 20,
+                "column" : 11
+              }
+            },
+            "right" : {
+              "type" : "Ident",
+              "name" : "x",
+              "pos" : {
+                "line" : 20,
+                "column" : 15
+              }
+            },
+            "pos" : {
+              "line" : 20,
+              "column" : 13
+            }
+          },
+          "right" : {
+            "type" : "Ident",
+            "name" : "y",
+            "pos" : {
+              "line" : 20,
+              "column" : 19
+            }
+          },
+          "pos" : {
+            "line" : 20,
+            "column" : 17
+          }
+        },
+        "right" : {
+          "type" : "Ident",
+          "name" : "z",
+          "pos" : {
+            "line" : 20,
+            "column" : 23
+          }
+        },
+        "pos" : {
+          "line" : 20,
+          "column" : 21
+        }
+      },
+      "pos" : {
+        "line" : 20,
+        "column" : 5
+      }
+    },
+    "pos" : {
+      "line" : 19,
+      "column" : 24
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}

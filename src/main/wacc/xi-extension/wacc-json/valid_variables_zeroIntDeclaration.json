@@ -1,0 +1,39 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "Declare",
+    "varType" : {
+      "type" : "IntType",
+      "pos" : {
+        "line" : 8,
+        "column" : 3
+      }
+    },
+    "identifier" : {
+      "type" : "Ident",
+      "name" : "x",
+      "pos" : {
+        "line" : 8,
+        "column" : 7
+      }
+    },
+    "rhs" : {
+      "type" : "IntLit",
+      "value" : 0,
+      "pos" : {
+        "line" : 8,
+        "column" : 11
+      }
+    },
+    "pos" : {
+      "line" : 8,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 7,
+    "column" : 1
+  }
+}

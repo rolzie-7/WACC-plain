@@ -1,0 +1,69 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "BoolType",
+        "pos" : {
+          "line" : 8,
+          "column" : 3
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "b",
+        "pos" : {
+          "line" : 8,
+          "column" : 8
+        }
+      },
+      "rhs" : {
+        "type" : "BoolLit",
+        "value" : false,
+        "pos" : {
+          "line" : 8,
+          "column" : 12
+        }
+      },
+      "pos" : {
+        "line" : 8,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "Assign",
+      "lhs" : {
+        "type" : "Ident",
+        "name" : "b",
+        "pos" : {
+          "line" : 9,
+          "column" : 3
+        }
+      },
+      "rhs" : {
+        "type" : "BoolLit",
+        "value" : true,
+        "pos" : {
+          "line" : 9,
+          "column" : 7
+        }
+      },
+      "pos" : {
+        "line" : 9,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 8,
+      "column" : 18
+    }
+  },
+  "pos" : {
+    "line" : 7,
+    "column" : 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "IfThenElse",
+    "condition" : {
+      "type" : "BoolLit",
+      "value" : true,
+      "pos" : {
+        "line" : 8,
+        "column" : 6
+      }
+    },
+    "thenStmt" : {
+      "type" : "Skip",
+      "pos" : {
+        "line" : 10,
+        "column" : 5
+      }
+    },
+    "elseStmt" : {
+      "type" : "Skip",
+      "pos" : {
+        "line" : 12,
+        "column" : 5
+      }
+    },
+    "pos" : {
+      "line" : 8,
+      "column" : 3
+    }
+  },
+  "pos" : {
+    "line" : 7,
+    "column" : 1
+  }
+}

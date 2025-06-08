@@ -1,0 +1,222 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "StmtList",
+              "first" : {
+                "type" : "StmtList",
+                "first" : {
+                  "type" : "Declare",
+                  "varType" : {
+                    "type" : "CharType",
+                    "pos" : {
+                      "line" : 11,
+                      "column" : 3
+                    }
+                  },
+                  "identifier" : {
+                    "type" : "Ident",
+                    "name" : "a",
+                    "pos" : {
+                      "line" : 11,
+                      "column" : 8
+                    }
+                  },
+                  "rhs" : {
+                    "type" : "CharLit",
+                    "value" : "a",
+                    "pos" : {
+                      "line" : 11,
+                      "column" : 12
+                    }
+                  },
+                  "pos" : {
+                    "line" : 11,
+                    "column" : 3
+                  }
+                },
+                "second" : {
+                  "type" : "Declare",
+                  "varType" : {
+                    "type" : "IntType",
+                    "pos" : {
+                      "line" : 12,
+                      "column" : 3
+                    }
+                  },
+                  "identifier" : {
+                    "type" : "Ident",
+                    "name" : "i",
+                    "pos" : {
+                      "line" : 12,
+                      "column" : 7
+                    }
+                  },
+                  "rhs" : {
+                    "type" : "IntLit",
+                    "value" : 99,
+                    "pos" : {
+                      "line" : 12,
+                      "column" : 11
+                    }
+                  },
+                  "pos" : {
+                    "line" : 12,
+                    "column" : 3
+                  }
+                },
+                "pos" : {
+                  "line" : 11,
+                  "column" : 16
+                }
+              },
+              "second" : {
+                "type" : "Print",
+                "expr" : {
+                  "type" : "Ident",
+                  "name" : "a",
+                  "pos" : {
+                    "line" : 14,
+                    "column" : 9
+                  }
+                },
+                "pos" : {
+                  "line" : 14,
+                  "column" : 3
+                }
+              },
+              "pos" : {
+                "line" : 12,
+                "column" : 14
+              }
+            },
+            "second" : {
+              "type" : "Print",
+              "expr" : {
+                "type" : "StrLit",
+                "value" : " is ",
+                "pos" : {
+                  "line" : 15,
+                  "column" : 9
+                }
+              },
+              "pos" : {
+                "line" : 15,
+                "column" : 3
+              }
+            },
+            "pos" : {
+              "line" : 14,
+              "column" : 11
+            }
+          },
+          "second" : {
+            "type" : "Println",
+            "expr" : {
+              "type" : "Ord",
+              "expr" : {
+                "type" : "Ident",
+                "name" : "a",
+                "pos" : {
+                  "line" : 16,
+                  "column" : 15
+                }
+              },
+              "pos" : {
+                "line" : 16,
+                "column" : 11
+              }
+            },
+            "pos" : {
+              "line" : 16,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 15,
+            "column" : 16
+          }
+        },
+        "second" : {
+          "type" : "Print",
+          "expr" : {
+            "type" : "Ident",
+            "name" : "i",
+            "pos" : {
+              "line" : 18,
+              "column" : 9
+            }
+          },
+          "pos" : {
+            "line" : 18,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 16,
+          "column" : 17
+        }
+      },
+      "second" : {
+        "type" : "Print",
+        "expr" : {
+          "type" : "StrLit",
+          "value" : " is ",
+          "pos" : {
+            "line" : 19,
+            "column" : 9
+          }
+        },
+        "pos" : {
+          "line" : 19,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 18,
+        "column" : 11
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Chr",
+        "expr" : {
+          "type" : "Ident",
+          "name" : "i",
+          "pos" : {
+            "line" : 20,
+            "column" : 15
+          }
+        },
+        "pos" : {
+          "line" : 20,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 20,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 19,
+      "column" : 16
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}

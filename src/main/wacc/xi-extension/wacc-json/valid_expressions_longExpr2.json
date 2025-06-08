@@ -1,0 +1,316 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 10,
+          "column" : 3
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "x",
+        "pos" : {
+          "line" : 10,
+          "column" : 7
+        }
+      },
+      "rhs" : {
+        "type" : "Sub",
+        "left" : {
+          "type" : "Add",
+          "left" : {
+            "type" : "Add",
+            "left" : {
+              "type" : "Add",
+              "left" : {
+                "type" : "Add",
+                "left" : {
+                  "type" : "Add",
+                  "left" : {
+                    "type" : "IntLit",
+                    "value" : 2,
+                    "pos" : {
+                      "line" : 10,
+                      "column" : 12
+                    }
+                  },
+                  "right" : {
+                    "type" : "IntLit",
+                    "value" : 3,
+                    "pos" : {
+                      "line" : 10,
+                      "column" : 16
+                    }
+                  },
+                  "pos" : {
+                    "line" : 10,
+                    "column" : 14
+                  }
+                },
+                "right" : {
+                  "type" : "IntLit",
+                  "value" : 2,
+                  "pos" : {
+                    "line" : 10,
+                    "column" : 20
+                  }
+                },
+                "pos" : {
+                  "line" : 10,
+                  "column" : 18
+                }
+              },
+              "right" : {
+                "type" : "IntLit",
+                "value" : 1,
+                "pos" : {
+                  "line" : 10,
+                  "column" : 24
+                }
+              },
+              "pos" : {
+                "line" : 10,
+                "column" : 22
+              }
+            },
+            "right" : {
+              "type" : "IntLit",
+              "value" : 1,
+              "pos" : {
+                "line" : 10,
+                "column" : 28
+              }
+            },
+            "pos" : {
+              "line" : 10,
+              "column" : 26
+            }
+          },
+          "right" : {
+            "type" : "IntLit",
+            "value" : 1,
+            "pos" : {
+              "line" : 10,
+              "column" : 32
+            }
+          },
+          "pos" : {
+            "line" : 10,
+            "column" : 30
+          }
+        },
+        "right" : {
+          "type" : "Div",
+          "left" : {
+            "type" : "Mul",
+            "left" : {
+              "type" : "Add",
+              "left" : {
+                "type" : "IntLit",
+                "value" : 1,
+                "pos" : {
+                  "line" : 10,
+                  "column" : 38
+                }
+              },
+              "right" : {
+                "type" : "IntLit",
+                "value" : 2,
+                "pos" : {
+                  "line" : 10,
+                  "column" : 42
+                }
+              },
+              "pos" : {
+                "line" : 10,
+                "column" : 40
+              }
+            },
+            "right" : {
+              "type" : "Sub",
+              "left" : {
+                "type" : "IntLit",
+                "value" : 3,
+                "pos" : {
+                  "line" : 10,
+                  "column" : 48
+                }
+              },
+              "right" : {
+                "type" : "Div",
+                "left" : {
+                  "type" : "IntLit",
+                  "value" : 4,
+                  "pos" : {
+                    "line" : 10,
+                    "column" : 52
+                  }
+                },
+                "right" : {
+                  "type" : "IntLit",
+                  "value" : 6,
+                  "pos" : {
+                    "line" : 10,
+                    "column" : 56
+                  }
+                },
+                "pos" : {
+                  "line" : 10,
+                  "column" : 54
+                }
+              },
+              "pos" : {
+                "line" : 10,
+                "column" : 50
+              }
+            },
+            "pos" : {
+              "line" : 10,
+              "column" : 45
+            }
+          },
+          "right" : {
+            "type" : "Add",
+            "left" : {
+              "type" : "Mul",
+              "left" : {
+                "type" : "IntLit",
+                "value" : 2,
+                "pos" : {
+                  "line" : 10,
+                  "column" : 63
+                }
+              },
+              "right" : {
+                "type" : "Sub",
+                "left" : {
+                  "type" : "IntLit",
+                  "value" : 18,
+                  "pos" : {
+                    "line" : 10,
+                    "column" : 68
+                  }
+                },
+                "right" : {
+                  "type" : "IntLit",
+                  "value" : 17,
+                  "pos" : {
+                    "line" : 10,
+                    "column" : 73
+                  }
+                },
+                "pos" : {
+                  "line" : 10,
+                  "column" : 71
+                }
+              },
+              "pos" : {
+                "line" : 10,
+                "column" : 65
+              }
+            },
+            "right" : {
+              "type" : "Add",
+              "left" : {
+                "type" : "Div",
+                "left" : {
+                  "type" : "Mul",
+                  "left" : {
+                    "type" : "IntLit",
+                    "value" : 3,
+                    "pos" : {
+                      "line" : 10,
+                      "column" : 80
+                    }
+                  },
+                  "right" : {
+                    "type" : "IntLit",
+                    "value" : 4,
+                    "pos" : {
+                      "line" : 10,
+                      "column" : 84
+                    }
+                  },
+                  "pos" : {
+                    "line" : 10,
+                    "column" : 82
+                  }
+                },
+                "right" : {
+                  "type" : "IntLit",
+                  "value" : 4,
+                  "pos" : {
+                    "line" : 10,
+                    "column" : 88
+                  }
+                },
+                "pos" : {
+                  "line" : 10,
+                  "column" : 86
+                }
+              },
+              "right" : {
+                "type" : "IntLit",
+                "value" : 6,
+                "pos" : {
+                  "line" : 10,
+                  "column" : 92
+                }
+              },
+              "pos" : {
+                "line" : 10,
+                "column" : 90
+              }
+            },
+            "pos" : {
+              "line" : 10,
+              "column" : 77
+            }
+          },
+          "pos" : {
+            "line" : 10,
+            "column" : 59
+          }
+        },
+        "pos" : {
+          "line" : 10,
+          "column" : 35
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "Exit",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "x",
+        "pos" : {
+          "line" : 11,
+          "column" : 8
+        }
+      },
+      "pos" : {
+        "line" : 11,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 10,
+      "column" : 95
+    }
+  },
+  "pos" : {
+    "line" : 8,
+    "column" : 1
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "ArrayType",
+          "baseType" : {
+            "type" : "IntType",
+            "pos" : {
+              "line" : 10,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 10,
+            "column" : 6
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "a",
+          "pos" : {
+            "line" : 10,
+            "column" : 9
+          }
+        },
+        "rhs" : {
+          "type" : "ArrayLit",
+          "elements" : [
+            {
+              "type" : "IntLit",
+              "value" : 0,
+              "pos" : {
+                "line" : 10,
+                "column" : 14
+              }
+            }
+          ],
+          "pos" : {
+            "line" : 10,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 10,
+          "column" : 3
+        }
+      },
+      "second" : {
+        "type" : "Assign",
+        "lhs" : {
+          "type" : "ArrayElem",
+          "array" : {
+            "type" : "Ident",
+            "name" : "a",
+            "pos" : {
+              "line" : 11,
+              "column" : 3
+            }
+          },
+          "indices" : [
+            {
+              "type" : "IntLit",
+              "value" : 0,
+              "pos" : {
+                "line" : 11,
+                "column" : 5
+              }
+            }
+          ],
+          "pos" : {
+            "line" : 11,
+            "column" : 3
+          }
+        },
+        "rhs" : {
+          "type" : "IntLit",
+          "value" : 42,
+          "pos" : {
+            "line" : 11,
+            "column" : 10
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 17
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "ArrayElem",
+        "array" : {
+          "type" : "Ident",
+          "name" : "a",
+          "pos" : {
+            "line" : 12,
+            "column" : 11
+          }
+        },
+        "indices" : [
+          {
+            "type" : "IntLit",
+            "value" : 0,
+            "pos" : {
+              "line" : 12,
+              "column" : 13
+            }
+          }
+        ],
+        "pos" : {
+          "line" : 12,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 12,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 11,
+      "column" : 13
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

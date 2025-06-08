@@ -1,0 +1,298 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "StmtList",
+        "first" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "StmtList",
+            "first" : {
+              "type" : "StmtList",
+              "first" : {
+                "type" : "StmtList",
+                "first" : {
+                  "type" : "Declare",
+                  "varType" : {
+                    "type" : "CharType",
+                    "pos" : {
+                      "line" : 15,
+                      "column" : 3
+                    }
+                  },
+                  "identifier" : {
+                    "type" : "Ident",
+                    "name" : "c1",
+                    "pos" : {
+                      "line" : 15,
+                      "column" : 8
+                    }
+                  },
+                  "rhs" : {
+                    "type" : "CharLit",
+                    "value" : "a",
+                    "pos" : {
+                      "line" : 15,
+                      "column" : 13
+                    }
+                  },
+                  "pos" : {
+                    "line" : 15,
+                    "column" : 3
+                  }
+                },
+                "second" : {
+                  "type" : "Declare",
+                  "varType" : {
+                    "type" : "CharType",
+                    "pos" : {
+                      "line" : 16,
+                      "column" : 3
+                    }
+                  },
+                  "identifier" : {
+                    "type" : "Ident",
+                    "name" : "c2",
+                    "pos" : {
+                      "line" : 16,
+                      "column" : 8
+                    }
+                  },
+                  "rhs" : {
+                    "type" : "CharLit",
+                    "value" : "z",
+                    "pos" : {
+                      "line" : 16,
+                      "column" : 13
+                    }
+                  },
+                  "pos" : {
+                    "line" : 16,
+                    "column" : 3
+                  }
+                },
+                "pos" : {
+                  "line" : 15,
+                  "column" : 17
+                }
+              },
+              "second" : {
+                "type" : "Println",
+                "expr" : {
+                  "type" : "E",
+                  "left" : {
+                    "type" : "Ident",
+                    "name" : "c1",
+                    "pos" : {
+                      "line" : 17,
+                      "column" : 11
+                    }
+                  },
+                  "right" : {
+                    "type" : "Ident",
+                    "name" : "c2",
+                    "pos" : {
+                      "line" : 17,
+                      "column" : 17
+                    }
+                  },
+                  "pos" : {
+                    "line" : 17,
+                    "column" : 14
+                  }
+                },
+                "pos" : {
+                  "line" : 17,
+                  "column" : 3
+                }
+              },
+              "pos" : {
+                "line" : 16,
+                "column" : 17
+              }
+            },
+            "second" : {
+              "type" : "Println",
+              "expr" : {
+                "type" : "NE",
+                "left" : {
+                  "type" : "Ident",
+                  "name" : "c1",
+                  "pos" : {
+                    "line" : 18,
+                    "column" : 11
+                  }
+                },
+                "right" : {
+                  "type" : "Ident",
+                  "name" : "c2",
+                  "pos" : {
+                    "line" : 18,
+                    "column" : 17
+                  }
+                },
+                "pos" : {
+                  "line" : 18,
+                  "column" : 14
+                }
+              },
+              "pos" : {
+                "line" : 18,
+                "column" : 3
+              }
+            },
+            "pos" : {
+              "line" : 17,
+              "column" : 20
+            }
+          },
+          "second" : {
+            "type" : "Println",
+            "expr" : {
+              "type" : "LT",
+              "left" : {
+                "type" : "Ident",
+                "name" : "c1",
+                "pos" : {
+                  "line" : 19,
+                  "column" : 11
+                }
+              },
+              "right" : {
+                "type" : "Ident",
+                "name" : "c2",
+                "pos" : {
+                  "line" : 19,
+                  "column" : 16
+                }
+              },
+              "pos" : {
+                "line" : 19,
+                "column" : 14
+              }
+            },
+            "pos" : {
+              "line" : 19,
+              "column" : 3
+            }
+          },
+          "pos" : {
+            "line" : 18,
+            "column" : 20
+          }
+        },
+        "second" : {
+          "type" : "Println",
+          "expr" : {
+            "type" : "LTE",
+            "left" : {
+              "type" : "Ident",
+              "name" : "c1",
+              "pos" : {
+                "line" : 20,
+                "column" : 11
+              }
+            },
+            "right" : {
+              "type" : "Ident",
+              "name" : "c2",
+              "pos" : {
+                "line" : 20,
+                "column" : 17
+              }
+            },
+            "pos" : {
+              "line" : 20,
+              "column" : 14
+            }
+          },
+          "pos" : {
+            "line" : 20,
+            "column" : 3
+          }
+        },
+        "pos" : {
+          "line" : 19,
+          "column" : 19
+        }
+      },
+      "second" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "GT",
+          "left" : {
+            "type" : "Ident",
+            "name" : "c1",
+            "pos" : {
+              "line" : 21,
+              "column" : 11
+            }
+          },
+          "right" : {
+            "type" : "Ident",
+            "name" : "c2",
+            "pos" : {
+              "line" : 21,
+              "column" : 16
+            }
+          },
+          "pos" : {
+            "line" : 21,
+            "column" : 14
+          }
+        },
+        "pos" : {
+          "line" : 21,
+          "column" : 3
+        }
+      },
+      "pos" : {
+        "line" : 20,
+        "column" : 20
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "GTE",
+        "left" : {
+          "type" : "Ident",
+          "name" : "c1",
+          "pos" : {
+            "line" : 22,
+            "column" : 11
+          }
+        },
+        "right" : {
+          "type" : "Ident",
+          "name" : "c2",
+          "pos" : {
+            "line" : 22,
+            "column" : 17
+          }
+        },
+        "pos" : {
+          "line" : 22,
+          "column" : 14
+        }
+      },
+      "pos" : {
+        "line" : 22,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 21,
+      "column" : 19
+    }
+  },
+  "pos" : {
+    "line" : 14,
+    "column" : 1
+  }
+}

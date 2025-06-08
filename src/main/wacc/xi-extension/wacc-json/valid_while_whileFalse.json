@@ -1,0 +1,61 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "WhileDo",
+      "condition" : {
+        "type" : "BoolLit",
+        "value" : false,
+        "pos" : {
+          "line" : 10,
+          "column" : 9
+        }
+      },
+      "body" : {
+        "type" : "Println",
+        "expr" : {
+          "type" : "StrLit",
+          "value" : "looping...",
+          "pos" : {
+            "line" : 11,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 5
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "StrLit",
+        "value" : "end of loop",
+        "pos" : {
+          "line" : 13,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 13,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 12,
+      "column" : 8
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

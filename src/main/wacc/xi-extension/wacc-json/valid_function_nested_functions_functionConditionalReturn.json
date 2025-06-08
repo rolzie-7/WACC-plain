@@ -1,0 +1,139 @@
+{
+  "type" : "Program",
+  "functions" : [
+    {
+      "type" : "Function",
+      "returnType" : {
+        "type" : "BoolType",
+        "pos" : {
+          "line" : 10,
+          "column" : 3
+        }
+      },
+      "name" : {
+        "type" : "Ident",
+        "name" : "f",
+        "pos" : {
+          "line" : 10,
+          "column" : 8
+        }
+      },
+      "params" : [
+      ],
+      "body" : {
+        "type" : "IfThenElse",
+        "condition" : {
+          "type" : "BoolLit",
+          "value" : true,
+          "pos" : {
+            "line" : 11,
+            "column" : 8
+          }
+        },
+        "thenStmt" : {
+          "type" : "Return",
+          "expr" : {
+            "type" : "BoolLit",
+            "value" : true,
+            "pos" : {
+              "line" : 12,
+              "column" : 14
+            }
+          },
+          "pos" : {
+            "line" : 12,
+            "column" : 7
+          }
+        },
+        "elseStmt" : {
+          "type" : "Return",
+          "expr" : {
+            "type" : "BoolLit",
+            "value" : false,
+            "pos" : {
+              "line" : 14,
+              "column" : 14
+            }
+          },
+          "pos" : {
+            "line" : 14,
+            "column" : 7
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 5
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 3
+      }
+    }
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "BoolType",
+        "pos" : {
+          "line" : 17,
+          "column" : 3
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "x",
+        "pos" : {
+          "line" : 17,
+          "column" : 8
+        }
+      },
+      "rhs" : {
+        "type" : "Call",
+        "function" : {
+          "type" : "Ident",
+          "name" : "f",
+          "pos" : {
+            "line" : 17,
+            "column" : 17
+          }
+        },
+        "args" : [
+        ],
+        "pos" : {
+          "line" : 17,
+          "column" : 12
+        }
+      },
+      "pos" : {
+        "line" : 17,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "x",
+        "pos" : {
+          "line" : 18,
+          "column" : 11
+        }
+      },
+      "pos" : {
+        "line" : 18,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 17,
+      "column" : 20
+    }
+  },
+  "pos" : {
+    "line" : 9,
+    "column" : 1
+  }
+}

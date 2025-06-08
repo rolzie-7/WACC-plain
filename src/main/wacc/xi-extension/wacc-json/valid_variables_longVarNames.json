@@ -1,0 +1,61 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "IntType",
+        "pos" : {
+          "line" : 11,
+          "column" : 3
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "this_variable_has_a_crazy_long_name_but_ought_to_still_be_valid",
+        "pos" : {
+          "line" : 11,
+          "column" : 7
+        }
+      },
+      "rhs" : {
+        "type" : "IntLit",
+        "value" : 5,
+        "pos" : {
+          "line" : 11,
+          "column" : 73
+        }
+      },
+      "pos" : {
+        "line" : 11,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "Exit",
+      "expr" : {
+        "type" : "Ident",
+        "name" : "this_variable_has_a_crazy_long_name_but_ought_to_still_be_valid",
+        "pos" : {
+          "line" : 12,
+          "column" : 8
+        }
+      },
+      "pos" : {
+        "line" : 12,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 11,
+      "column" : 75
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}

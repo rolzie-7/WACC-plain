@@ -1,0 +1,148 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "ArrayType",
+        "baseType" : {
+          "type" : "CharType",
+          "pos" : {
+            "line" : 9,
+            "column" : 5
+          }
+        },
+        "pos" : {
+          "line" : 9,
+          "column" : 9
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "testArr",
+        "pos" : {
+          "line" : 9,
+          "column" : 12
+        }
+      },
+      "rhs" : {
+        "type" : "ArrayLit",
+        "elements" : [
+          {
+            "type" : "CharLit",
+            "value" : "a",
+            "pos" : {
+              "line" : 9,
+              "column" : 23
+            }
+          },
+          {
+            "type" : "CharLit",
+            "value" : "b",
+            "pos" : {
+              "line" : 9,
+              "column" : 28
+            }
+          },
+          {
+            "type" : "CharLit",
+            "value" : "c",
+            "pos" : {
+              "line" : 9,
+              "column" : 33
+            }
+          }
+        ],
+        "pos" : {
+          "line" : 9,
+          "column" : 22
+        }
+      },
+      "pos" : {
+        "line" : 9,
+        "column" : 5
+      }
+    },
+    "second" : {
+      "type" : "Declare",
+      "varType" : {
+        "type" : "ArrayType",
+        "baseType" : {
+          "type" : "StringType",
+          "pos" : {
+            "line" : 10,
+            "column" : 5
+          }
+        },
+        "pos" : {
+          "line" : 10,
+          "column" : 11
+        }
+      },
+      "identifier" : {
+        "type" : "Ident",
+        "name" : "arr",
+        "pos" : {
+          "line" : 10,
+          "column" : 14
+        }
+      },
+      "rhs" : {
+        "type" : "ArrayLit",
+        "elements" : [
+          {
+            "type" : "Ident",
+            "name" : "testArr",
+            "pos" : {
+              "line" : 10,
+              "column" : 21
+            }
+          },
+          {
+            "type" : "StrLit",
+            "value" : "box",
+            "pos" : {
+              "line" : 10,
+              "column" : 30
+            }
+          },
+          {
+            "type" : "StrLit",
+            "value" : "foo",
+            "pos" : {
+              "line" : 10,
+              "column" : 37
+            }
+          },
+          {
+            "type" : "StrLit",
+            "value" : "bar",
+            "pos" : {
+              "line" : 10,
+              "column" : 44
+            }
+          }
+        ],
+        "pos" : {
+          "line" : 10,
+          "column" : 20
+        }
+      },
+      "pos" : {
+        "line" : 10,
+        "column" : 5
+      }
+    },
+    "pos" : {
+      "line" : 9,
+      "column" : 37
+    }
+  },
+  "pos" : {
+    "line" : 8,
+    "column" : 1
+  }
+}

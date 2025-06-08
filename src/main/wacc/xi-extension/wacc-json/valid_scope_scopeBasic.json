@@ -1,0 +1,37 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "Skip",
+      "pos" : {
+        "line" : 8,
+        "column" : 3
+      }
+    },
+    "second" : {
+      "type" : "BeginEnd",
+      "stmt" : {
+        "type" : "Skip",
+        "pos" : {
+          "line" : 10,
+          "column" : 5
+        }
+      },
+      "pos" : {
+        "line" : 9,
+        "column" : 3
+      }
+    },
+    "pos" : {
+      "line" : 8,
+      "column" : 7
+    }
+  },
+  "pos" : {
+    "line" : 7,
+    "column" : 1
+  }
+}

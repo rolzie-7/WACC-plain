@@ -1,0 +1,143 @@
+{
+  "type" : "Program",
+  "functions" : [
+  ],
+  "main" : {
+    "type" : "StmtList",
+    "first" : {
+      "type" : "StmtList",
+      "first" : {
+        "type" : "Declare",
+        "varType" : {
+          "type" : "IntType",
+          "pos" : {
+            "line" : 11,
+            "column" : 5
+          }
+        },
+        "identifier" : {
+          "type" : "Ident",
+          "name" : "n",
+          "pos" : {
+            "line" : 11,
+            "column" : 9
+          }
+        },
+        "rhs" : {
+          "type" : "IntLit",
+          "value" : 0,
+          "pos" : {
+            "line" : 11,
+            "column" : 13
+          }
+        },
+        "pos" : {
+          "line" : 11,
+          "column" : 5
+        }
+      },
+      "second" : {
+        "type" : "WhileDo",
+        "condition" : {
+          "type" : "NE",
+          "left" : {
+            "type" : "Ident",
+            "name" : "n",
+            "pos" : {
+              "line" : 12,
+              "column" : 11
+            }
+          },
+          "right" : {
+            "type" : "IntLit",
+            "value" : 1,
+            "pos" : {
+              "line" : 12,
+              "column" : 16
+            }
+          },
+          "pos" : {
+            "line" : 12,
+            "column" : 13
+          }
+        },
+        "body" : {
+          "type" : "StmtList",
+          "first" : {
+            "type" : "Assign",
+            "lhs" : {
+              "type" : "Ident",
+              "name" : "n",
+              "pos" : {
+                "line" : 13,
+                "column" : 9
+              }
+            },
+            "rhs" : {
+              "type" : "IntLit",
+              "value" : 1,
+              "pos" : {
+                "line" : 13,
+                "column" : 13
+              }
+            },
+            "pos" : {
+              "line" : 13,
+              "column" : 9
+            }
+          },
+          "second" : {
+            "type" : "Println",
+            "expr" : {
+              "type" : "StrLit",
+              "value" : "Change n",
+              "pos" : {
+                "line" : 14,
+                "column" : 17
+              }
+            },
+            "pos" : {
+              "line" : 14,
+              "column" : 9
+            }
+          },
+          "pos" : {
+            "line" : 13,
+            "column" : 15
+          }
+        },
+        "pos" : {
+          "line" : 12,
+          "column" : 5
+        }
+      },
+      "pos" : {
+        "line" : 11,
+        "column" : 15
+      }
+    },
+    "second" : {
+      "type" : "Println",
+      "expr" : {
+        "type" : "StrLit",
+        "value" : "Should print \"Change n\" once before.",
+        "pos" : {
+          "line" : 16,
+          "column" : 13
+        }
+      },
+      "pos" : {
+        "line" : 16,
+        "column" : 5
+      }
+    },
+    "pos" : {
+      "line" : 15,
+      "column" : 10
+    }
+  },
+  "pos" : {
+    "line" : 10,
+    "column" : 1
+  }
+}
